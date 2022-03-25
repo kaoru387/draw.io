@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:38:34.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="5LlzmX6n8PsYX1p0Lav5" version="17.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:41:22.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="KypKx3WI2atNtwYlwvGX" version="17.1.5" type="github" pages="4">
   <diagram id="5Bgpg4QZmj8Q5ADuIZz-" name="全体構成">
     <mxGraphModel dx="1218" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wTfKXeCDNPPVg7Ran6rp" name="スクレイピング">
-    <mxGraphModel dx="1199" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="DWsXqn6DtvlezWm5sOSw-0" />
         <mxCell id="DWsXqn6DtvlezWm5sOSw-1" parent="DWsXqn6DtvlezWm5sOSw-0" />
