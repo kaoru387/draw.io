@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T07:28:59.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="axmsh8IyKXR2d6q87uFB" version="17.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-25T07:31:37.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Stidv_k-JxK17wSd2OuX" version="17.1.5" type="github" pages="2">
   <diagram id="KO6qZuCQyyyOinKKkYhL" name="全体構成">
-    <mxGraphModel dx="1263" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="GIOBZwNzjuU8xG_jzN05-0" />
         <mxCell id="GIOBZwNzjuU8xG_jzN05-1" parent="GIOBZwNzjuU8xG_jzN05-0" />
@@ -14,7 +14,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b0gJ3AU0Z-31uCYqc-lS" name="クラス図">
-    <mxGraphModel dx="1100" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1332" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,13 +28,13 @@
           <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="XrwBq5b9lYBYacj84w_D-7" value="GoogleWordPipeline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="377" width="220" height="74" as="geometry" />
+          <mxGeometry x="650" y="369" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XrwBq5b9lYBYacj84w_D-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XrwBq5b9lYBYacj84w_D-7">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XrwBq5b9lYBYacj84w_D-10" value="+ open_spider(self, spider): &#xa;+ process_item(self, , item, spider): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XrwBq5b9lYBYacj84w_D-7">
-          <mxGeometry y="34" width="220" height="40" as="geometry" />
+        <mxCell id="XrwBq5b9lYBYacj84w_D-10" value="+ open_spider(self, spider): &#xa;+ process_item(self, item, spider): &#xa;+ close_spider(self, spider):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XrwBq5b9lYBYacj84w_D-7">
+          <mxGeometry y="34" width="220" height="56" as="geometry" />
         </mxCell>
         <mxCell id="XrwBq5b9lYBYacj84w_D-11" value="GoogleWordSpider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="270" width="160" height="100" as="geometry" />
