@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T07:31:37.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Stidv_k-JxK17wSd2OuX" version="17.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-25T07:33:56.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="OM3fpBqp6kxDiEWRizCa" version="17.1.5" type="github" pages="2">
   <diagram id="KO6qZuCQyyyOinKKkYhL" name="全体構成">
     <mxGraphModel dx="1471" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -110,6 +110,15 @@
             <mxPoint x="770" y="280" as="sourcePoint" />
             <mxPoint x="760" y="356" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pTjdc3-FC8nirOyjhbs5-1" value="BeautifulSoup" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pTjdc3-FC8nirOyjhbs5-2" value="selenium" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pTjdc3-FC8nirOyjhbs5-3" value="html" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
