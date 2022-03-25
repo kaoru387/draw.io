@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:15:45.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="k2a_QK5Q4IVeGAoJhUui" version="17.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:32:27.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="VouOynH3JKk_OZnpOmXC" version="17.1.5" type="github" pages="4">
   <diagram id="5Bgpg4QZmj8Q5ADuIZz-" name="全体構成">
     <mxGraphModel dx="1218" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -27,12 +27,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wTfKXeCDNPPVg7Ran6rp" name="スクレイピング">
-    <mxGraphModel dx="992" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1199" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="DWsXqn6DtvlezWm5sOSw-0" />
         <mxCell id="DWsXqn6DtvlezWm5sOSw-1" parent="DWsXqn6DtvlezWm5sOSw-0" />
-        <mxCell id="DWsXqn6DtvlezWm5sOSw-7" value="IshikiSpider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
-          <mxGeometry x="460" y="260" width="160" height="110" as="geometry" />
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-7" value="GoogleWordSpider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+          <mxGeometry x="190" y="402" width="160" height="110" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DWsXqn6DtvlezWm5sOSw-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-7">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -43,9 +45,45 @@
         <mxCell id="DWsXqn6DtvlezWm5sOSw-10" value="+ start_requests(self): &#xa;+ parse(self, response): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-7">
           <mxGeometry y="60" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DWsXqn6DtvlezWm5sOSw-13" value="&lt;div&gt;$ tree ~/Desktop/sample_pj/&lt;/div&gt;&lt;div&gt;/Users/aki/Desktop/sample_pj/&lt;/div&gt;&lt;div&gt;├── sample_pj&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── items.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── middlewares.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── pipelines.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── settings.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── spiders&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── sample.py&lt;/div&gt;&lt;div&gt;└── scrapy.cfg&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#EFEBE9;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
-          <mxGeometry x="40" y="80" width="320" height="200" as="geometry" />
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-13" value="&lt;div&gt;$ tree ~/Desktop/sample_pj/&lt;/div&gt;&lt;div&gt;/Users/aki/Desktop/sample_pj/&lt;/div&gt;&lt;div&gt;├── sample_pj&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── items.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── middlewares.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── pipelines.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── settings.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── spiders&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── google_word.py&lt;/div&gt;&lt;div&gt;└── scrapy.cfg&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#EFEBE9;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+          <mxGeometry x="40" y="60" width="320" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-33" value="GoogleWordPipeline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+          <mxGeometry x="480" y="300" width="210" height="148" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-34" value="+ title: string&#xa;+ job: string&#xa;+ date: string&#xa;+ text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-33">
+          <mxGeometry y="26" width="210" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-33">
+          <mxGeometry y="90" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-36" value="+ open_spider(self, spider): &#xa;+ process_item(self, , item, spider): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-33">
+          <mxGeometry y="98" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-21" value="GoogleWordItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+          <mxGeometry x="480" y="120" width="160" height="148" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-22" value="+ title: string&#xa;+ job: string&#xa;+ date: string&#xa;+ text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-21">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-21">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-24" value="+ start_requests(self): &#xa;+ parse(self, response): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-21">
+          <mxGeometry y="98" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-37" value="ファイル構成" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+          <mxGeometry x="40" y="20" width="160" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="/spiders/google_word.py" placeholders="1" name="Variable" id="DWsXqn6DtvlezWm5sOSw-38">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="DWsXqn6DtvlezWm5sOSw-1">
+            <mxGeometry x="190" y="382" width="140" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
