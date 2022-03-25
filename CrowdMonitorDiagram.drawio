@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T02:56:58.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="fdi0EVEc2LrPXhExtLs-" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T05:34:19.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="X6IKAlD88i3N4iE4sPrS" version="17.1.5" type="github" pages="4">
   <diagram id="5Bgpg4QZmj8Q5ADuIZz-" name="全体構成">
-    <mxGraphModel dx="1754" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,14 @@
       <root>
         <mxCell id="KCmEowvrTylowhZ2uvbx-0" />
         <mxCell id="KCmEowvrTylowhZ2uvbx-1" parent="KCmEowvrTylowhZ2uvbx-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wTfKXeCDNPPVg7Ran6rp" name="スクレイピング">
+    <mxGraphModel dx="1218" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-0" />
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-1" parent="DWsXqn6DtvlezWm5sOSw-0" />
       </root>
     </mxGraphModel>
   </diagram>
