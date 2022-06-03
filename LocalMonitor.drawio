@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2022-06-03T09:40:31.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="BB2UzECvDqDcMoYMBQHP" version="18.1.3" type="github" pages="4">
+  <diagram id="5Bgpg4QZmj8Q5ADuIZz-" name="全体構成">
+    <mxGraphModel dx="910" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dFp8VKm8FutFWLKA6MDh-1" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="150" width="210" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i-IHJQSLo3SjMjOWQqo0" name="E-R図">
+    <mxGraphModel dx="910" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="NCAFjSBsGvpr9k2f_5j3-0" />
+        <mxCell id="NCAFjSBsGvpr9k2f_5j3-1" parent="NCAFjSBsGvpr9k2f_5j3-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IzEv5zryaSdnXfJL00AD" name="UML">
+    <mxGraphModel dx="910" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="KCmEowvrTylowhZ2uvbx-0" />
+        <mxCell id="KCmEowvrTylowhZ2uvbx-1" parent="KCmEowvrTylowhZ2uvbx-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wTfKXeCDNPPVg7Ran6rp" name="スクレイピング">
+    <mxGraphModel dx="910" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-0" />
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-1" parent="DWsXqn6DtvlezWm5sOSw-0" />
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-7" value="GoogleWordSpider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="240" y="362" width="160" height="136" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-45" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-7" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-7" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-7" vertex="1">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-10" value="+ start_requests(self): &#xa;+ parse(self, response): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-7" vertex="1">
+          <mxGeometry y="86" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-13" value="&lt;div&gt;&lt;span&gt;~/Dev/sample_pj/&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;├── sample_pj&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── items.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── middlewares.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── pipelines.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;├── settings.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp;└── spiders&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── __init__.py&lt;/div&gt;&lt;div&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── google_word.py&lt;/div&gt;&lt;div&gt;└── scrapy.cfg&lt;/div&gt;&lt;div&gt;└── start_urls.txt&lt;br&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#EFEBE9;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="80" y="68" width="320" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-33" value="GoogleWordPipeline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="480" y="300" width="210" height="148" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-34" value="+ title: string&#xa;+ job: string&#xa;+ date: string&#xa;+ text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-33" vertex="1">
+          <mxGeometry y="26" width="210" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-33" vertex="1">
+          <mxGeometry y="90" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-36" value="+ open_spider(self, spider): &#xa;+ process_item(self, , item, spider): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-33" vertex="1">
+          <mxGeometry y="98" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-21" value="GoogleWordItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="480" y="120" width="160" height="148" as="geometry">
+            <mxRectangle x="480" y="200" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-22" value="+ title: string&#xa;+ job: string&#xa;+ date: string&#xa;+ text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-21" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-21" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-24" value="+ start_requests(self): &#xa;+ parse(self, response): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DWsXqn6DtvlezWm5sOSw-21" vertex="1">
+          <mxGeometry y="98" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-37" value="ファイル構成" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="80" y="28" width="160" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="/spiders/google_word.py" placeholders="1" name="Variable" id="DWsXqn6DtvlezWm5sOSw-38">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+            <mxGeometry x="240" y="340" width="140" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-44" value="BeautifulSoup" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="DWsXqn6DtvlezWm5sOSw-1" vertex="1">
+          <mxGeometry x="60" y="360" width="150" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DWsXqn6DtvlezWm5sOSw-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="DWsXqn6DtvlezWm5sOSw-1" source="DWsXqn6DtvlezWm5sOSw-44" target="DWsXqn6DtvlezWm5sOSw-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="510" as="sourcePoint" />
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
