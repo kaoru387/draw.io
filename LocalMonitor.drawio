@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T06:16:22.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="wj2JZCTFhOZsvLrW-Kc6" version="18.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-05T02:39:24.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="UsfSkX1wdUPQPq1oXOjZ" version="18.1.3" type="github" pages="4">
   <diagram id="5Bgpg4QZmj8Q5ADuIZz-" name="全体構成">
     <mxGraphModel dx="910" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IzEv5zryaSdnXfJL00AD" name="UML">
-    <mxGraphModel dx="1675" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1256" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="KCmEowvrTylowhZ2uvbx-0" />
         <mxCell id="KCmEowvrTylowhZ2uvbx-1" parent="KCmEowvrTylowhZ2uvbx-0" />
@@ -38,7 +38,7 @@
           <mxGeometry x="441" y="389" width="260" height="204" as="geometry" />
         </mxCell>
         <mxCell id="SAPqVDTbNWfX0t1gCk5R-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DataQuery&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ name: String&lt;br&gt;+ state: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ year: Int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ query: Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;− __init__(self, name: String, query: Object, state: [], year: int): Void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get_data(self): dataframe&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="KCmEowvrTylowhZ2uvbx-1">
-          <mxGeometry x="728" y="50" width="392" height="143" as="geometry" />
+          <mxGeometry x="728" y="49" width="392" height="143" as="geometry" />
         </mxCell>
         <mxCell id="SAPqVDTbNWfX0t1gCk5R-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;utils&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;− ThreadPoolExecutor: concurrent.futures&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;− bigquery: google.cloud&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;− get_data(task: DataQuery):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;run_concurrent_queries(list_queries_fetchers: List[DataQuery]):&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ estimate_gigabytes_scanned(query: String,&amp;nbsp;bq_client: bigquery&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="KCmEowvrTylowhZ2uvbx-1">
           <mxGeometry x="441" y="210" width="379" height="146" as="geometry" />
