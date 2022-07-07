@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T05:01:41.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TCZfkK2gCM0aDpQfsDel" version="17.2.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-07T05:01:55.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="thVArboPT48gLQhJd6DS" version="19.0.3" type="github" pages="5">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1226" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
           <mxGeometry x="780" y="205" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-1" value="default.vue&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;horizontal.vue&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="650" y="20" width="165" height="50" as="geometry" />
+          <mxGeometry x="550" y="20" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-2" value="Right-sidebar.vue" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="205" width="130" height="50" as="geometry" />
@@ -100,7 +100,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uYzZjaX4C8H3oImasLYB" name="E-R図">
-    <mxGraphModel dx="990" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
