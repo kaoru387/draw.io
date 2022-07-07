@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T04:39:00.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m0XSboWa66xOmFUBEplP" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-07T05:01:41.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TCZfkK2gCM0aDpQfsDel" version="17.2.2" type="github" pages="5">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,21 @@
           <mxGeometry x="413.46" y="843.25" width="256.54" height="140" as="geometry" />
         </mxCell>
         <mxCell id="7CKHgchraldSPWQE6hJV-3" value="/layouts" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
-          <mxGeometry x="360" y="160" width="310" height="120" as="geometry" />
+          <mxGeometry x="350" y="160" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="qBA_Y4rVfipC8BJ1xIkX-3" target="qBA_Y4rVfipC8BJ1xIkX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;curved=1;" edge="1" parent="1" source="qBA_Y4rVfipC8BJ1xIkX-3" target="RcQKSa9qwqW51JSnxMMo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="238" />
+              <mxPoint x="520" y="295" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qBA_Y4rVfipC8BJ1xIkX-3" value="default.vue" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="200" width="110" height="50" as="geometry" />
+          <mxGeometry x="380" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qBA_Y4rVfipC8BJ1xIkX-4" value="horizontal.vue" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="200" width="110" height="50" as="geometry" />
@@ -41,10 +52,18 @@
           <mxGeometry x="760" y="380" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-7" value="/pages" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
-          <mxGeometry x="360" y="360" width="240" height="120" as="geometry" />
+          <mxGeometry x="360" y="490" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcQKSa9qwqW51JSnxMMo-6" target="RcQKSa9qwqW51JSnxMMo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="555" />
+              <mxPoint x="700" y="305" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-6" value="index.vue" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="400" width="110" height="50" as="geometry" />
+          <mxGeometry x="400" y="530" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-8" value="Top.vue" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="420" width="110" height="50" as="geometry" />
@@ -58,11 +77,30 @@
         <mxCell id="RcQKSa9qwqW51JSnxMMo-11" value="Page-header.vue" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="280" width="130" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-12" value="manager.vue" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-13" value="guest.vue" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;curved=1;" edge="1" parent="1" source="qBA_Y4rVfipC8BJ1xIkX-3" target="RcQKSa9qwqW51JSnxMMo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="247.5" as="sourcePoint" />
+            <mxPoint x="550" y="305" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="238" />
+              <mxPoint x="520" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-18" value="権限により&lt;br&gt;表示内容を切り替える（画面制御）" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="260" width="105" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uYzZjaX4C8H3oImasLYB" name="E-R図">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="990" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
