@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T08:31:44.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y2m9_Wus_eDuil-uaCMY" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-07T13:08:40.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FXdSe-xLRd0yTt4iexOr" version="19.0.3" type="github" pages="5">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
           <mxGeometry x="960" y="297" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-4" value="/widgets" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
-          <mxGeometry x="920" y="610" width="230" height="140" as="geometry" />
+          <mxGeometry x="920" y="590" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-7" value="/pages" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
           <mxGeometry x="360" y="490" width="240" height="220" as="geometry" />
@@ -118,6 +118,47 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-1" value="routes" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-2" value="Top&lt;br&gt;トップ" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="witness&lt;br&gt;目撃情報一覧&lt;br&gt;（専門職）" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-4" value="- path: /Iriomote/ components&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="200" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-6" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="280" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="witness&lt;br&gt;目撃情報投稿" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="witness&lt;br&gt;目撃情報一覧&lt;br&gt;（専門職）" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-9" value="- path: /Iriomote/ rareanimals&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="360" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="440" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="Top&lt;br&gt;制御" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /Iriomote/ components&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="40" width="380" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -149,53 +190,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
-    <mxGraphModel dx="990" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="x-1pisbddP982Tr1hwO6-1" value="routes" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-2" value="Top&lt;br&gt;トップ" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="witness&lt;br&gt;目撃情報一覧&lt;br&gt;（専門職）" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-4" value="- path: /Iriomote/ components&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-6" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="280" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="witness&lt;br&gt;目撃情報投稿" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="360" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="witness&lt;br&gt;目撃情報一覧&lt;br&gt;（専門職）" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="440" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-9" value="- path: /Iriomote/ rareanimals&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="360" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="440" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="Top&lt;br&gt;制御" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /Iriomote/ components&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="40" width="380" height="50" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="コンポーネント設計">
-    <mxGraphModel dx="990" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-SO4Rv6TXe8KCbK7xeFc-1" value="Iriomote/&lt;br&gt;index.vue" style="html=1;" vertex="1" parent="1">
+        <mxCell id="-SO4Rv6TXe8KCbK7xeFc-1" value="Iriomote/&lt;br&gt;index.vue" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="490" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
