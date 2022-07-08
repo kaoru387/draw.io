@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T02:46:58.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LvrRuEjR3ufS7dlJkZca" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-08T03:15:37.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fm6RWEemOGUcIl3jsSjy" version="19.0.3" type="github" pages="5">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="n9k9oCSDuQb1RZ_3Tiit-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBA_Y4rVfipC8BJ1xIkX-4" target="RcQKSa9qwqW51JSnxMMo-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qBA_Y4rVfipC8BJ1xIkX-4" value="horizontal.vue" style="html=1;" vertex="1" parent="1">
+        <mxCell id="qBA_Y4rVfipC8BJ1xIkX-4" value="horizontal.vue&lt;br&gt;（一般市民）" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-1" value="default.vue&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;horizontal.vue&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -78,13 +78,13 @@
         <mxCell id="n9k9oCSDuQb1RZ_3Tiit-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcQKSa9qwqW51JSnxMMo-12" target="n9k9oCSDuQb1RZ_3Tiit-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcQKSa9qwqW51JSnxMMo-12" value="manager.vue" style="html=1;" vertex="1" parent="1">
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-12" value="manager.vue&lt;br&gt;（管理者権限）" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="270" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n9k9oCSDuQb1RZ_3Tiit-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcQKSa9qwqW51JSnxMMo-13" target="n9k9oCSDuQb1RZ_3Tiit-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcQKSa9qwqW51JSnxMMo-13" value="guest.vue" style="html=1;" vertex="1" parent="1">
+        <mxCell id="RcQKSa9qwqW51JSnxMMo-13" value="guest.vue&lt;br&gt;（専門職権限）" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="340" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RcQKSa9qwqW51JSnxMMo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;curved=1;" edge="1" parent="1" source="qBA_Y4rVfipC8BJ1xIkX-3" target="RcQKSa9qwqW51JSnxMMo-13">
