@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:12:30.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bcqt9lfDFwSCPHAMjVi_" version="19.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:13:26.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="uB658FaLSz8me6DtbbIY" version="19.0.3" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
           <mxGeometry x="280" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;authUtils.js&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;authUtils-v8.js&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="210" width="110" height="50" as="geometry" />
+          <mxGeometry x="422" y="210" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDpIxSUfD5Vf07L5DRV--7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O7MH_GExK1gjWggyx-Ae-23" target="O7MH_GExK1gjWggyx-Ae-2">
           <mxGeometry relative="1" as="geometry" />
@@ -245,7 +245,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-23" value="&lt;span style=&quot;text-align: left;&quot;&gt;default.vue&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="280" width="110" height="50" as="geometry" />
+          <mxGeometry x="422" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-24" value="&lt;span style=&quot;text-align: left;&quot;&gt;horizontal.vue&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;Top.vue&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Page-header.vue&lt;br&gt;Footer.vue&lt;br&gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="432" width="110" height="66" as="geometry" />
