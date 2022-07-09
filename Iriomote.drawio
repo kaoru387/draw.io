@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T07:05:13.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="09cMVPtW182J613PAl1v" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T07:12:45.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HFFUpO0wJD_vh7l7pyLD" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -332,18 +332,6 @@
         </mxCell>
         <mxCell id="cPhy6joLeauO0OLwFs69-4" value="- construstor(firebaseConfig): &#xa;+ registerUser(email, password, username): currentUser&#xa;+ loginUser(email, password): currentUser&#xa;+ loginUserAnonymous(): currentUser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
           <mxGeometry y="128" width="360" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="__Y1zqe_HCWJQXvFgIvx-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="__Y1zqe_HCWJQXvFgIvx-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="__Y1zqe_HCWJQXvFgIvx-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="__Y1zqe_HCWJQXvFgIvx-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="__Y1zqe_HCWJQXvFgIvx-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;authUtils:js&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;initFirebaseBackend =&amp;nbsp;&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;FirebaseAuthBackend&lt;/span&gt;&lt;br&gt;getFirebaseBackend = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="330" height="140" as="geometry" />
