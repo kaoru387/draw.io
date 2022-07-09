@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T09:23:55.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="abw4s-tIE1soHb1iSDae" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T09:25:18.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hgbqsxFAXa61uG-u9ymx" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1324" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -321,7 +321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="ログイン">
-    <mxGraphModel dx="1244" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1295" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,7 +350,7 @@
           <mxGeometry x="771" y="180" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WPk6RLfZDKPQi8vLonW4-15" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Map-window-sectionline&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;dashed=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="771" y="270" width="180" height="60" as="geometry" />
+          <mxGeometry x="771" y="280" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V71Xevp6hf_c-QUxB0mP-3" value="&lt;span style=&quot;text-align: left&quot;&gt;個体の詳細を入力する()&lt;/span&gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WPk6RLfZDKPQi8vLonW4-13">
           <mxGeometry relative="1" as="geometry">
@@ -403,7 +403,7 @@
           <mxGeometry y="131" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2J0rlQ3kgxjJ9mMi45Nf-21" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;authUtils.js&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="280" width="140" height="145" as="geometry" />
+          <mxGeometry x="520" y="360" width="140" height="145" as="geometry" />
         </mxCell>
         <mxCell id="2J0rlQ3kgxjJ9mMi45Nf-23" value="attribute1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2J0rlQ3kgxjJ9mMi45Nf-21">
           <mxGeometry y="40" width="140" height="20" as="geometry" />
@@ -419,6 +419,21 @@
         </mxCell>
         <mxCell id="2J0rlQ3kgxjJ9mMi45Nf-28" value="loginUserAnonymous&lt;br&gt;getAuthUser" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2J0rlQ3kgxjJ9mMi45Nf-21">
           <mxGeometry y="108" width="140" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="2J0rlQ3kgxjJ9mMi45Nf-30" value="&lt;span style=&quot;text-align: left&quot;&gt;画像をアップロードする()&lt;br&gt;位置情報の共有方法を確認する()&lt;br&gt;位置情報を取得する()&lt;br&gt;&lt;/span&gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WPk6RLfZDKPQi8vLonW4-7">
+          <mxGeometry x="0.2788" relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="sourcePoint" />
+            <mxPoint x="771" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="315" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2J0rlQ3kgxjJ9mMi45Nf-31" value="(via connectionPoint1)" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="2J0rlQ3kgxjJ9mMi45Nf-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
