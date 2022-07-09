@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T13:23:48.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="A-vFDf9ZHRMM67TS_VE0" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T13:25:55.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="XaT7AuCtPJSpRoU4leNO" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1661" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="ログイン">
-    <mxGraphModel dx="1661" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,7 +384,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cPhy6joLeauO0OLwFs69-1" value="FirebaseAuthBackend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="630" y="50" width="360" height="228" as="geometry" />
+          <mxGeometry x="730" y="40" width="360" height="228" as="geometry" />
         </mxCell>
         <mxCell id="cPhy6joLeauO0OLwFs69-2" value="- firebaseApp: firebase/app&#xa;- db: firebase/firestore&#xa;- functions: &#xa;- auth: firebase/auth&#xa;- storage: firebase/firestore&#xa;- Geofirestore: geofirestore" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
           <mxGeometry y="26" width="360" height="94" as="geometry" />
@@ -396,19 +396,29 @@
           <mxGeometry y="128" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-1" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;authUtils.js&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="310" width="270" height="410" as="geometry" />
+          <mxGeometry x="390" y="278" width="270" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="hTvzpUZakYhDAT4mc7S5-2" value="firebaseApp: firebase/app" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hTvzpUZakYhDAT4mc7S5-1">
-          <mxGeometry y="40" width="270" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="hTvzpUZakYhDAT4mc7S5-3" value="db:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hTvzpUZakYhDAT4mc7S5-1">
-          <mxGeometry y="60" width="270" height="20" as="geometry" />
+        <mxCell id="hTvzpUZakYhDAT4mc7S5-2" value="- firebaseApp: firebase/app&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- db: firebase/firestore&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- functions:&amp;nbsp;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- auth: firebase/auth&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- storage: firebase/firestore&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- Geofirestore: geofirestore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hTvzpUZakYhDAT4mc7S5-1">
+          <mxGeometry y="40" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hTvzpUZakYhDAT4mc7S5-1">
-          <mxGeometry y="80" width="270" height="8" as="geometry" />
+          <mxGeometry y="140" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-5" value="- constructor(firebaseConfig)&lt;br&gt;+ registerUser(email, password, username)&lt;br&gt;+&amp;nbsp;loginUser(email, password)&lt;br&gt;+&amp;nbsp;loginUserAnonymous(email, password)&lt;br&gt;+&amp;nbsp;forgetPassword(email)&lt;br&gt;+&amp;nbsp;logout()&lt;br&gt;+&amp;nbsp;setLoggeedInUser(user)&lt;br&gt;+&amp;nbsp;getAuthenticatedUser()&lt;br&gt;+&amp;nbsp;getAuthenticatedUserClaims()&lt;br&gt;+&amp;nbsp;getAuthUser()&lt;br&gt;+&amp;nbsp;getCollection()&lt;br&gt;+&amp;nbsp;getDocRef()&lt;br&gt;+&amp;nbsp;getDB()&lt;br&gt;+&amp;nbsp;updateProfileUser()&lt;br&gt;+&amp;nbsp;getDatabase()&lt;br&gt;+&amp;nbsp;httpEvent(method, params)&lt;br&gt;+&amp;nbsp;httpRequest(method, params)&lt;br&gt;+&amp;nbsp;storageRef()&lt;br&gt;+&amp;nbsp;geofire()&lt;br&gt;+&amp;nbsp;timestamp()&lt;br&gt;-&amp;nbsp;_handleError&lt;br&gt;-&amp;nbsp;firebaseError()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hTvzpUZakYhDAT4mc7S5-1">
-          <mxGeometry y="88" width="270" height="322" as="geometry" />
+          <mxGeometry y="148" width="270" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="-bENwOuNnBhxsgb7FSL4-7" value="FirebaseAuthBackend" style="swimlane;fontStyle=1;align=center;horizontal=1;startSize=30;collapsible=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="350" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-bENwOuNnBhxsgb7FSL4-8" value="heading1" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=30;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;" vertex="1" parent="-bENwOuNnBhxsgb7FSL4-7">
+          <mxGeometry width="380" height="250" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-bENwOuNnBhxsgb7FSL4-9" value="Interaction1" style="text;align=left;" vertex="1" parent="-bENwOuNnBhxsgb7FSL4-8">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="40" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
