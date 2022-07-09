@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T03:08:58.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2PcJ3yDKOsmb3d152nwz" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T05:04:01.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EINQKgixpmA_Uhl086NB" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -173,6 +173,12 @@
         <mxCell id="PoOmh0mkkOo43rAFqjJW-2" value="- path: /layouts/default.vue&lt;br&gt;- component: () =&amp;gt;import(&#39;vuex&#39;),&amp;nbsp;&lt;br&gt;import(&#39;./horizontal&#39;), import(&#39;./manager&#39;), import(&#39;./guest&#39;)&lt;br&gt;- watch: &#39;auth.role&#39; （権限を監視し、画面制御を行う）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="340" y="441" width="380" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="PIBjJBPxs43xDBwp8DZ9-1" value="匿名認証&lt;br&gt;（一般市民）" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PIBjJBPxs43xDBwp8DZ9-2" value="- path: /components/Top.vue&lt;br&gt;- component { authComputed }: () =&amp;gt;import(&#39;~/store/helpers&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="561" width="380" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -217,25 +223,54 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="一般市民">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-1" value="/layouts" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-2" value="default.vue" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-3" value="権限により&lt;br&gt;表示内容を切り替える（画面制御）" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="110" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cPhy6joLeauO0OLwFs69-1" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="160" height="86" as="geometry" />
+        <mxCell id="cPhy6joLeauO0OLwFs69-1" value="FirebaseAuthBackend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="200" width="360" height="228" as="geometry" />
         </mxCell>
-        <mxCell id="cPhy6joLeauO0OLwFs69-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="cPhy6joLeauO0OLwFs69-2" value="- firebaseApp: firebase/app&#xa;- db: firebase/firestore&#xa;- functions: &#xa;- auth: firebase/auth&#xa;- storage: firebase/firestore&#xa;- Geofirestore: geofirestore" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
+          <mxGeometry y="26" width="360" height="94" as="geometry" />
         </mxCell>
         <mxCell id="cPhy6joLeauO0OLwFs69-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="120" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cPhy6joLeauO0OLwFs69-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="cPhy6joLeauO0OLwFs69-4" value="- construstor(firebaseConfig): &#xa;+ registerUser(email, password, username): currentUser&#xa;+ loginUser(email, password): currentUser&#xa;+ loginUserAnonymous(): currentUser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cPhy6joLeauO0OLwFs69-1" vertex="1">
+          <mxGeometry y="128" width="360" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7hzLpyhYYhVUwkcumYDo-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="110" width="320" height="150" as="geometry" />
+        <mxCell id="__Y1zqe_HCWJQXvFgIvx-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="__Y1zqe_HCWJQXvFgIvx-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="__Y1zqe_HCWJQXvFgIvx-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="__Y1zqe_HCWJQXvFgIvx-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br/&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="__Y1zqe_HCWJQXvFgIvx-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;authUtils:js&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;initFirebaseBackend =&amp;nbsp;&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;FirebaseAuthBackend&lt;/span&gt;&lt;br&gt;getFirebaseBackend = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="330" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -245,17 +280,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="コンポーネント設計">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="-SO4Rv6TXe8KCbK7xeFc-1" value="Iriomote/&lt;br&gt;index.vue" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="490" width="110" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
