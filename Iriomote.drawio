@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T08:49:08.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="l_OLBPKHHZ9caNYShFh1" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T08:51:18.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="De6w9Iw-NZYnCLW9l88t" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1226" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -326,7 +326,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kCpIUe-UgUAmTLMkc5Ab-1" value="/一般市民" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=30;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="980" height="310" as="geometry" />
+          <mxGeometry x="80" y="40" width="980" height="630" as="geometry" />
         </mxCell>
         <mxCell id="WPk6RLfZDKPQi8vLonW4-6" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;一般市民&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;dashed=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="130" y="90" width="160" height="70" as="geometry" />
