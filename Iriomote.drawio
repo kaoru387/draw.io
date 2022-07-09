@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:49:19.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pUhDH6-UUEjqHzkGRlVF" version="19.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:51:09.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2synMSx2hbvOFleXpE_S" version="19.0.3" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k8TVzAes4x6XUOxmQE-b-1" value="helpers/firebase" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="230" width="110" height="50" as="geometry" />
+          <mxGeometry x="280" y="221" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i8acgxmbvIOwtwEzB9W5-1" target="XeOfoGUYkg8DR5IupMJF-21">
           <mxGeometry relative="1" as="geometry">
@@ -217,7 +217,7 @@
           <mxGeometry x="282" y="155" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-18" value="authUtils.js&#xa;authUtils-v8.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="422" y="231" width="140" height="48" as="geometry" />
+          <mxGeometry x="422" y="222" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="6_Hx9tIN4XG2RmjeJ7yL-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeOfoGUYkg8DR5IupMJF-21" target="O7MH_GExK1gjWggyx-Ae-26">
           <mxGeometry relative="1" as="geometry" />
@@ -284,6 +284,23 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="一般市民">
+    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-1" value="/layouts" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-2" value="default.vue" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-3" value="権限により&lt;br&gt;表示内容を切り替える（画面制御）" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="110" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="JgKTMwBbgGvbVAr5e4fG" name="バックエンド">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -330,23 +347,6 @@
         </mxCell>
         <mxCell id="PIBjJBPxs43xDBwp8DZ9-2" value="- path: /components/Top.vue&lt;br&gt;- component { authComputed }: () =&amp;gt;import(&#39;~/store/helpers&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="561" width="380" height="90" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="一般市民">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-1" value="/layouts" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="330" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-2" value="default.vue" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kCpIUe-UgUAmTLMkc5Ab-3" value="権限により&lt;br&gt;表示内容を切り替える（画面制御）" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="210" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
