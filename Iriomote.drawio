@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T02:55:32.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="n_Z31LOcZbFI8J9yye9c" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T03:02:55.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1jarDZltRFzVytbE6VtV" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -164,10 +164,10 @@
         <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="440" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="Top&lt;br&gt;制御" style="html=1;" parent="1" vertex="1">
+        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="default.vue" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="41" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /Iriomote/ components&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /layouts/default.vue&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="41" width="380" height="50" as="geometry" />
         </mxCell>
       </root>
@@ -178,10 +178,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iYZ3Cytl9T_ezJFIT2dL-1" value="https://docs.google.com/presentation/d/1SdQwmNdssC9QkAD2mSuwRRDapp9znFcpwtNzvR5SfWU/edit#slide=id.g106008835f6_0_25" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="550" width="740" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RoxYWEhaJlikAMoYNbiw-1" value="バックエンド処理" style="html=1;" vertex="1" parent="1">
+        <mxCell id="RoxYWEhaJlikAMoYNbiw-1" value="routes" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RoxYWEhaJlikAMoYNbiw-2" value="Authentication&lt;br&gt;ユーザー認証" style="html=1;" vertex="1" parent="1">
@@ -210,6 +207,12 @@
         </mxCell>
         <mxCell id="sfRs4FuqV4h1uxRUDRPr-5" value="- path: /helpers/firebase/authUtils-v8.js&lt;br&gt;- component: () =&amp;gt; import(&#39;firebase/compat/app&#39;),&lt;br&gt;import(&#39;firebase/compat/auth&#39;), import(&#39;firebase/compat/storage&#39;), import(&#39;firebase/compat/firestore&#39;), import(&#39;geofirestire&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoOmh0mkkOo43rAFqjJW-1" value="layouts" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PoOmh0mkkOo43rAFqjJW-2" value="- path: /layouts/default.vue&lt;br&gt;- component: () =&amp;gt;import(&#39;vuex&#39;),&amp;nbsp;&lt;br&gt;import(&#39;./horizontal&#39;), import(&#39;./manager&#39;), import(&#39;./guest&#39;)&lt;br&gt;- watch: &#39;auth.role&#39; （権限を監視し、画面制御を行う）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="441" width="380" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
