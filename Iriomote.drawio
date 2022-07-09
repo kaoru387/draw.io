@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:52:37.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Z-FGEAZeEclAMIoDIOKx" version="19.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-09T07:01:47.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yhRZsbHZgUtEN0NPXR0J" version="19.0.3" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -254,32 +254,44 @@
         <mxCell id="x-1pisbddP982Tr1hwO6-2" value="目撃情報を投稿する" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="目撃情報を見る&lt;br&gt;（専門職）" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="200" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-4" value="- path: /rareanimals/add&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="340" y="120" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-6" value="- path: /rareanimals/&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/index.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="340" y="200" width="380" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="マスター" style="html=1;" parent="1" vertex="1">
+        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="目撃情報を見る" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="360" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="マスター" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="440" width="110" height="50" as="geometry" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-4" value="- path: /rareanimals/add&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="120" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-9" value="- path: /Iriomote/ rareanimals&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="x-1pisbddP982Tr1hwO6-6" value="- path: /rareanimals/&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/index.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="360" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="マスター" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="マスター" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-9" value="- path: /Iriomote/ rareanimals&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="440" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="340" y="520" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="ヤマネコ目撃情報&lt;br&gt;（初期画面）" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="41" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /&lt;br&gt;- component: () =&amp;gt; import()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="41" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uRFmQ4iOayufATUU-73G-1" value="ログイン" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uRFmQ4iOayufATUU-73G-2" value="- path: /account/login&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/account/login.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uRFmQ4iOayufATUU-73G-3" value="マイアカウント" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uRFmQ4iOayufATUU-73G-4" value="- path: /account/profile&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/account/profile.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="380" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
