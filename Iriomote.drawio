@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T02:50:45.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m4N6bgGI3TbEPe_J18j5" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-09T02:55:32.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="n_Z31LOcZbFI8J9yye9c" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -181,13 +181,13 @@
         <mxCell id="iYZ3Cytl9T_ezJFIT2dL-1" value="https://docs.google.com/presentation/d/1SdQwmNdssC9QkAD2mSuwRRDapp9znFcpwtNzvR5SfWU/edit#slide=id.g106008835f6_0_25" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="550" width="740" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RoxYWEhaJlikAMoYNbiw-1" value="レンダリング順" style="html=1;" vertex="1" parent="1">
+        <mxCell id="RoxYWEhaJlikAMoYNbiw-1" value="バックエンド処理" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RoxYWEhaJlikAMoYNbiw-2" value="Authentication&lt;br&gt;ユーザー認証" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="40" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RoxYWEhaJlikAMoYNbiw-3" value="- path: /middleware/authentication.js&lt;br&gt;- component: () =&amp;gt; import(&#39;Iriomote/pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RoxYWEhaJlikAMoYNbiw-3" value="- path: /middleware/authentication.js&lt;br&gt;- component: () =&amp;gt; import(&#39;../helpers/firebase/authUtils&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="340" y="40" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FODDAGWpmxiTfhtxhLT4-1" value="Firebase生成" style="html=1;" vertex="1" parent="1">
