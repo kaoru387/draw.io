@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:14:24.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HDyDqfvr8N0TV6c1ys9B" version="19.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:15:38.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7dPsvD77NjnG3auT0j8J" version="19.0.3" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -180,20 +180,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w6C7kAGjo_hmEOLztkP7" name="ディレクトリ構成">
-    <mxGraphModel dx="1242" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1656" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZCK0p1WPmsBTpoFCP4XQ-1" value="Nuxt.js" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="950" height="630" as="geometry" />
+          <mxGeometry x="80" y="40" width="1000" height="670" as="geometry" />
         </mxCell>
         <mxCell id="ctZ1Pz9Ts-WHuQbesxrX-22" value="権限により&lt;br&gt;表示内容を切り替える（画面制御）" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="379" width="110" height="70" as="geometry" />
+          <mxGeometry x="690" y="510" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ctZ1Pz9Ts-WHuQbesxrX-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=42.5;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ctZ1Pz9Ts-WHuQbesxrX-22">
+        <mxCell id="ctZ1Pz9Ts-WHuQbesxrX-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=42.5;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctZ1Pz9Ts-WHuQbesxrX-22" target="O7MH_GExK1gjWggyx-Ae-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="177" as="sourcePoint" />
-            <mxPoint x="130" y="330" as="targetPoint" />
+            <mxPoint x="80" y="177" as="sourcePoint" />
+            <mxPoint x="100" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDpIxSUfD5Vf07L5DRV--1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1HkZPuH7rLSHOpwy7XGj-1" target="O7MH_GExK1gjWggyx-Ae-18">
@@ -227,7 +227,7 @@
           <mxGeometry x="280" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-2" value="components" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="280" width="110" height="50" as="geometry" />
+          <mxGeometry x="570" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-18" value="&lt;span style=&quot;&quot;&gt;authentication.js&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="80" width="110" height="50" as="geometry" />
@@ -236,7 +236,7 @@
           <mxGeometry x="280" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;authUtils.js&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;authUtils-v8.js&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="422" y="210" width="110" height="50" as="geometry" />
+          <mxGeometry x="422" y="210" width="108" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDpIxSUfD5Vf07L5DRV--7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O7MH_GExK1gjWggyx-Ae-23" target="O7MH_GExK1gjWggyx-Ae-2">
           <mxGeometry relative="1" as="geometry" />
@@ -245,13 +245,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-23" value="&lt;span style=&quot;text-align: left;&quot;&gt;default.vue&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="422" y="280" width="110" height="50" as="geometry" />
+          <mxGeometry x="422" y="280" width="108" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-24" value="&lt;span style=&quot;text-align: left;&quot;&gt;horizontal.vue&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;Top.vue&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Page-header.vue&lt;br&gt;Footer.vue&lt;br&gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="432" width="110" height="66" as="geometry" />
+          <mxGeometry x="879" y="432" width="110" height="66" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-25" value="&lt;span style=&quot;text-align: left;&quot;&gt;manager.vue&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;Top-manager.vue&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Page-header.vue&lt;br&gt;Footer.vue&lt;br&gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="520" width="110" height="66" as="geometry" />
+          <mxGeometry x="879" y="520" width="110" height="66" as="geometry" />
         </mxCell>
         <mxCell id="aDpIxSUfD5Vf07L5DRV--9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="O7MH_GExK1gjWggyx-Ae-26" target="O7MH_GExK1gjWggyx-Ae-27">
           <mxGeometry relative="1" as="geometry" />
@@ -260,10 +260,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-26" value="store" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="360" width="110" height="50" as="geometry" />
+          <mxGeometry x="570" y="360" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-27" value="&lt;span style=&quot;text-align: left;&quot;&gt;helpers.js&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;layout.js&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="360" width="120" height="50" as="geometry" />
+          <mxGeometry x="720" y="360" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDpIxSUfD5Vf07L5DRV--11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O7MH_GExK1gjWggyx-Ae-28" target="O7MH_GExK1gjWggyx-Ae-24">
           <mxGeometry relative="1" as="geometry" />
@@ -275,10 +275,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-28" value="_auth.role" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="440" width="110" height="50" as="geometry" />
+          <mxGeometry x="720" y="440" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O7MH_GExK1gjWggyx-Ae-29" value="&lt;span style=&quot;text-align: left;&quot;&gt;guest.vue&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;Top-guest.vue&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Page-header.vue&lt;br&gt;Footer.vue&lt;br&gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="600" width="110" height="66" as="geometry" />
+          <mxGeometry x="879" y="600" width="110" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
