@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T04:48:50.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ja643Jr9p4K_94MXx1Pj" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-10T04:49:15.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DpQErGwp2mOAmxQPIJUQ" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="w6C7kAGjo_hmEOLztkP7" name="全体">
+  <diagram id="w6C7kAGjo_hmEOLztkP7" name="権限管理">
     <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
