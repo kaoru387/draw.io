@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T05:53:41.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ihTaXigmtEPYgijwZ3fg" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-10T05:55:18.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LtT84agl20Vaihx6TFQm" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -337,7 +337,7 @@
         <mxCell id="XeOfoGUYkg8DR5IupMJF-21" value="default.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="379" y="334" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XeOfoGUYkg8DR5IupMJF-23" value="helpers.js&#xa;layout.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="XeOfoGUYkg8DR5IupMJF-23" value="helpers.js&#xa;layout.js&#xa;auth.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="704" y="324.5" width="140" height="59" as="geometry" />
         </mxCell>
         <mxCell id="o4Yx54Nq_PBSBtw4ajdm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeOfoGUYkg8DR5IupMJF-24" target="o4Yx54Nq_PBSBtw4ajdm-1">
