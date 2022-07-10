@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T14:44:01.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WZfuzX6nRUMSbb-XSZA1" version="17.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-10T04:48:50.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ja643Jr9p4K_94MXx1Pj" version="17.2.2" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1421" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
-    <mxGraphModel dx="1421" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,8 +172,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="w6C7kAGjo_hmEOLztkP7" name="初期表示">
-    <mxGraphModel dx="1421" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="w6C7kAGjo_hmEOLztkP7" name="全体">
+    <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,7 +305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="目撃情報管理">
-    <mxGraphModel dx="1421" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,6 +465,18 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uvbQSsL1EWVo3MKTVbNn-1" value="Nuxtjs" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1040" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uvbQSsL1EWVo3MKTVbNn-2" value="middleware" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="109" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uvbQSsL1EWVo3MKTVbNn-3" value="authentication.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="114" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uvbQSsL1EWVo3MKTVbNn-4" value="[共通]" style="text" vertex="1" parent="1">
+          <mxGeometry x="101" y="80" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
