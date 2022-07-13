@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T13:11:28.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="b8HGCL8m4nh7VpxBKJX1" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-13T02:30:59.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0EynKYg5Q7lm5r1GAfNk" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -546,6 +546,77 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="268.5" y="1281.88" as="sourcePoint" />
             <mxPoint x="228.5" y="1281.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-23" value="/アカウント管理" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1440" width="1080" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-36" target="sTxvXZ07JNq7IvP3ysNw-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.5" y="1514.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-26" target="sTxvXZ07JNq7IvP3ysNw-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-26" value="pages/manager" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="1490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-29" target="sTxvXZ07JNq7IvP3ysNw-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-29" target="sTxvXZ07JNq7IvP3ysNw-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-29" value="index.vue&#xa;summary.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1492.5" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-31" target="sTxvXZ07JNq7IvP3ysNw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-31" value="components" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1489.75" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-32" value="Table-yamaneko.vue&#xa;Map-latlnginput.vue&#xa;Map-window-sectionline.vue&#xa;Dialog-date.vue&#xa;Dialog-picture.vue&#xa;Map-view.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1463" width="185" height="103.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-34" target="sTxvXZ07JNq7IvP3ysNw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-34" value="components" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1490" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-36" target="sTxvXZ07JNq7IvP3ysNw-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-36" value="Top-manager.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="228.5" y="1492.5" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-38" target="sTxvXZ07JNq7IvP3ysNw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-38" value="store" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="1571.88" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-39" value="helpers.js&#xa;layout.js&#xa;auth.js&#xa;master.js&#xa;witness.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1575.75" width="140" height="86.25" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-41" target="sTxvXZ07JNq7IvP3ysNw-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-41" value="store" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="1575.01" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-42" value="helpers.js&#xa;auth.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1575.88" width="140" height="48.12" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-43" value="一般市民の場合、匿名ログインし、アクセストークンを取得する" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1561.88" width="188.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.352;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sTxvXZ07JNq7IvP3ysNw-36" target="sTxvXZ07JNq7IvP3ysNw-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268.5" y="1561.88" as="sourcePoint" />
+            <mxPoint x="228.5" y="1561.88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
