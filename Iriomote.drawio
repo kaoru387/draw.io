@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T06:42:40.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SpPgJc8qWpz3DMreTZZd" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-14T05:56:00.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-RnW32GDhhq6hgK9dC4O" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1242" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -344,19 +344,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-24" value="horizontal.vue&#xa;Top.vue&#xa;Page-header.vue&#xa;Footer.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="694" y="479" width="140" height="59" as="geometry" />
+          <mxGeometry x="694" y="473" width="140" height="71" as="geometry" />
         </mxCell>
         <mxCell id="o4Yx54Nq_PBSBtw4ajdm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XeOfoGUYkg8DR5IupMJF-25" target="o4Yx54Nq_PBSBtw4ajdm-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-25" value="manager.vue&#xa;Top-manager.vue&#xa;Page-header.vue&#xa;Footer-user.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="694" y="579" width="140" height="59" as="geometry" />
+          <mxGeometry x="694" y="573" width="140" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="o4Yx54Nq_PBSBtw4ajdm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XeOfoGUYkg8DR5IupMJF-26" target="o4Yx54Nq_PBSBtw4ajdm-13" edge="1">
+        <mxCell id="sTxvXZ07JNq7IvP3ysNw-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeOfoGUYkg8DR5IupMJF-26" target="o4Yx54Nq_PBSBtw4ajdm-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-26" value="guest.vue&#xa;Top-guest.vue&#xa;Page-header.vue&#xa;Footer-user.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="694" y="679" width="140" height="59" as="geometry" />
+          <mxGeometry x="694" y="675" width="140" height="65" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-27" value="authentication.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="232" y="114" width="140" height="40" as="geometry" />
