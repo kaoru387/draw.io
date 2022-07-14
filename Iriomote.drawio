@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T05:56:00.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-RnW32GDhhq6hgK9dC4O" version="19.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-14T06:13:26.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QdPrxlhAF1HtOZI9p0IM" version="19.0.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1242" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
-    <mxGraphModel dx="1242" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w6C7kAGjo_hmEOLztkP7" name="ディレクトリ構成">
-    <mxGraphModel dx="1232" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,7 +447,7 @@
         <mxCell id="f6Xz4TjtN8LAvENzmC81-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7jQgATci5d7H6_Z6lrXI-2" target="f6Xz4TjtN8LAvENzmC81-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7jQgATci5d7H6_Z6lrXI-2" value="Top.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="7jQgATci5d7H6_Z6lrXI-2" value="Top.vue&#xa;Bottom-slider.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="228.5" y="932.5" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RGA0I36Vr4fFBH8h4F44-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="f6Xz4TjtN8LAvENzmC81-1" target="f6Xz4TjtN8LAvENzmC81-5" edge="1">
@@ -467,15 +467,6 @@
         </mxCell>
         <mxCell id="f6Xz4TjtN8LAvENzmC81-9" value="helpers.js&#xa;auth.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1015.88" width="140" height="48.12" as="geometry" />
-        </mxCell>
-        <mxCell id="f6Xz4TjtN8LAvENzmC81-12" value="一般市民の場合、匿名ログインし、アクセストークンを取得する" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="1001.88" width="188.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="f6Xz4TjtN8LAvENzmC81-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.352;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7jQgATci5d7H6_Z6lrXI-2" target="f6Xz4TjtN8LAvENzmC81-12" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="268.5" y="1001.88" as="sourcePoint" />
-            <mxPoint x="228.5" y="1001.88" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="sTxvXZ07JNq7IvP3ysNw-1" value="/目撃情報管理（管理者）" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=30;" vertex="1" parent="1">
           <mxGeometry x="40" y="1160" width="1080" height="240" as="geometry" />
