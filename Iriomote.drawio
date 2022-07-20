@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T10:15:00.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Hi2ZGsNoot11K6mToAEW" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-20T10:19:26.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hXagGFdXBf4rddRuHP9K" version="20.1.1" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1511" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -904,6 +904,12 @@
             <mxPoint x="310" y="440" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-33" value="目撃情報の登録が完了した時点で終了します。" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-34" value="ユーザー画面が閉じられた後でも、バックグラウンドで圧縮処理が行われます。" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="165" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
