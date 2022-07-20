@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T10:23:57.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Pt5pPmwH1zSxXd2GIYS6" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-20T10:31:16.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lT6NGpb4R1-On_KFiNf_" version="20.1.1" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1511" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -815,18 +815,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-TzNlklCBTMYuNY19BIh" name="動画投稿フロー">
-    <mxGraphModel dx="965" dy="859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1170" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FPO5fWVKHuGNavRMGsRe-1" value="ユーザー" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="79" width="100" height="461" as="geometry" />
+          <mxGeometry x="120" y="79" width="113" height="461" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FPO5fWVKHuGNavRMGsRe-1">
           <mxGeometry x="45" y="81" width="10" height="79" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FPO5fWVKHuGNavRMGsRe-1">
           <mxGeometry x="45" y="321" width="10" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-35" value="途中で画面を閉じると、生データがゴミになる。&lt;br&gt;削除する画面かチェックして削除するプログラムが必要。&lt;br&gt;様子見る" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FPO5fWVKHuGNavRMGsRe-1">
+          <mxGeometry x="-52" y="175" width="165" height="113" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-2" value="ストレージ&lt;br&gt;(生データ)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="79" width="100" height="411" as="geometry" />
