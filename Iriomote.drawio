@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T02:40:23.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sVRLwDpchUaY_-oEWrz0" version="20.2.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-09-17T02:41:32.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IAaZyVGatUqeRF0jk4DE" version="20.2.7" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="947" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
-    <mxGraphModel dx="1997" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,55 +200,52 @@
           <mxGeometry x="40" y="40" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x-1pisbddP982Tr1hwO6-4" value="- path: /rareanimals/add&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="120" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="119" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x-1pisbddP982Tr1hwO6-6" value="- path: /rareanimals/&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/index.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="360" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="359" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x-1pisbddP982Tr1hwO6-9" value="- path: /Iriomote/ rareanimals&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="440" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="439" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x-1pisbddP982Tr1hwO6-10" value="- path&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="520" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="519" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jQR88ynWSbJQrxfT54eB-2" value="- path: /&lt;br&gt;- component: () =&amp;gt; import()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="41" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="40" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uRFmQ4iOayufATUU-73G-2" value="- path: /account/login&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/account/login.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="200" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="199" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uRFmQ4iOayufATUU-73G-4" value="- path: /account/profile&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/account/profile.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="400" y="280" width="380" height="50" as="geometry" />
+          <mxGeometry x="360" y="279" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TZNgBD1zSmt1B0aNZxPJ-2" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="200" y="41" width="120" height="529" as="geometry" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-2" value="目撃情報を投稿する" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-2" value="目撃情報を投稿する" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="79" width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="ヤマネコ&lt;br&gt;目撃情報管理" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="360" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="ヤマネコ目撃情報管理" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="319" width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="ユーザー管理" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-7" value="マスター" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="399" width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="区間マスター" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="520" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-8" value="マスター" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="479" width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="バックエンド&lt;br&gt;権限管理" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="41" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jQR88ynWSbJQrxfT54eB-1" value="バックエンド&lt;br&gt;権限管理" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="uRFmQ4iOayufATUU-73G-1" value="ログイン" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uRFmQ4iOayufATUU-73G-1" value="ログイン" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="159" width="119.99999999999999" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uRFmQ4iOayufATUU-73G-3" value="あなたのアカウント" style="html=1;" parent="TZNgBD1zSmt1B0aNZxPJ-2" vertex="1">
-          <mxGeometry y="239" width="119.99999999999999" height="50" as="geometry" />
+        <mxCell id="uRFmQ4iOayufATUU-73G-3" value="あなたのアカウント" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="119.99999999999999" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="w6C7kAGjo_hmEOLztkP7" name="ディレクトリ構成">
-    <mxGraphModel dx="1997" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
