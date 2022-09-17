@@ -1,1 +1,268 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T07:38:26.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.7" etag="ulAkAtjY0VMyvXdMveAA" type="github"><diagram id="IE3pzxr3oEUSaLVv8lXV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-17T07:38:50.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="F5nrwrK_gzqr1GRJwuth" version="20.2.7" type="github">
+  <diagram id="IE3pzxr3oEUSaLVv8lXV" name="ページ1">
+    <mxGraphModel dx="2181" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;インポートファイルアップロード&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="240" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;input&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validations: { form: Object, newItem: Object}&lt;br&gt;+ form: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ newItem: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snack: Booloean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snackColor: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;snackText: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isShowMessage: Boolean&lt;/p&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isConfirm=false&lt;/span&gt;: Boolean&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changeTileButton()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;childLatlng()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;messageChild(msg: String, color: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;resetLatlng()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="270" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-4" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="626.75" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;位置情報登録&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="110" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-7" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;画像アップロード&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="137" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;電柱ID設定&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="237" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;動画アップロード&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="40" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-12" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-13" value="form.vue" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="370" width="140" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-14" value="default: slot&lt;br&gt;map: slot" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-13">
+          <mxGeometry y="60" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-16" value="form-parts.vue" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="518" width="140" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-17" value="is_checked: false" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-16">
+          <mxGeometry y="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-16">
+          <mxGeometry y="50" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-19" value="text=&#39;&#39;: string&lt;br&gt;date=&#39;&#39;: string&lt;br&gt;checkId=false: string&lt;br&gt;isChecked: boolean&lt;br&gt;isNeed=false: boolean" style="shape=partialRectangle;html=1;top=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="530" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-20" value="&lt;div&gt;dateErrors(): []&lt;/div&gt;&lt;div&gt;date2Errors(): []&lt;/div&gt;&lt;div&gt;radioDayErrors(): []&lt;/div&gt;&lt;div&gt;radioTimeErrors(): []&lt;/div&gt;&lt;div&gt;radioErrors(): []&lt;/div&gt;&lt;div&gt;radioFindLocationErrors()&lt;/div&gt;&lt;div&gt;categorynameErrors()&lt;/div&gt;&lt;div&gt;emailErrors()&lt;/div&gt;&lt;div&gt;newLargeCategoryErrors()&lt;/div&gt;&lt;div&gt;newSmallCategoryErrors()&lt;/div&gt;&lt;div&gt;newAnimalCategoryErrors()&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="920" y="123.25" width="190" height="203.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-21" value="computed" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-20">
+          <mxGeometry width="190" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-22" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;最終確認メッセージ&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="2045" y="40" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-23" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-22">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;地図情報管理&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="2045" y="150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-24">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-26" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;小動物新規作成&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="2045" y="249" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-27" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-26">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-28" value="options-bar.vue" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="660" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-29" value="message: slot" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-28">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-28">
+          <mxGeometry y="60" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-31" value="internal structure" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-28">
+          <mxGeometry y="68" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-32" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-28">
+          <mxGeometry y="88" width="230" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-33" value="form" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-32">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-34" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-32">
+          <mxGeometry x="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-35" value="form-parts" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-34">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-36" value="item: Object&lt;br&gt;title: String&lt;br&gt;text: String&lt;br&gt;isProgress: Boolean" style="shape=partialRectangle;html=1;top=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="390" width="130" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-37" value="admin-index.vue" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="50" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-38" value="message: slot" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-37">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-37">
+          <mxGeometry y="60" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-40" value="internal structure" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-37">
+          <mxGeometry y="68" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-41" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-37">
+          <mxGeometry y="88" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-42" value="dialog-picture" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-43" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-44" value="dialog-video" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-43">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-45" value="dialog-latlnginput" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="210" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-46" value="dialog-pole" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="210" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-47" value="new-input" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="210" y="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-48" value="options-bar" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="320" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-49" value="user-popover" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="320" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-50" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="90" y="43" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-51" value="dialog-fileupload" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-50">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-52" value="last-confirm" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-41">
+          <mxGeometry x="320" y="92" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;search&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ search: Object&lt;br&gt;+ items: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ poleMapCenter: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isStep4SelectNot: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isMyData: Bolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ searchItem: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ filters: Object&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changeTileButtonManager(id: String):&lt;br&gt;+ matchCustom(params: [], data: String): Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;katakanaToHiragana()&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;hiraganaToKatagana()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setMarkerPole(pole_id: string):&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setMarkerPoleKoho(lat: float, lng: float):&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;changePole(v: Object):&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectPole(v: Object):&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;tableFilter():&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;searchOn(key: String):&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="370" width="300" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-54" value="&lt;div&gt;poles(): []&lt;/div&gt;&lt;div&gt;filter(): []&lt;/div&gt;&lt;div&gt;filterSmallCategories(): []&lt;/div&gt;&lt;div&gt;searchAnimalCategories(): []&lt;/div&gt;&lt;div&gt;filterAnimalCategories(): []&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="470" width="240" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-55" value="computed" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-54">
+          <mxGeometry width="240" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-56" value="・位置情報の共有方法を変更する()&lt;br&gt;・位置情報を更新する()&lt;br&gt;・メッセージを表示する()&lt;br&gt;・" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-57" value="操作" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-56">
+          <mxGeometry width="259.41043083900223" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-58" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;管理者の位置情報の共有方法を変更する()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="590" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-59" value="操作" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-58">
+          <mxGeometry width="240" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-60" value="add.vue" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="890" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-61" value="message: slot" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-60">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-60">
+          <mxGeometry y="60" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-63" value="internal structure" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-60">
+          <mxGeometry y="68" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-64" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-60">
+          <mxGeometry y="88" width="320" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-65" value="form" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-64">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-66" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-64">
+          <mxGeometry x="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-67" value="form-parts" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-66">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-68" value="map" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-64">
+          <mxGeometry x="120" y="92" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-69" value="tile" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-64">
+          <mxGeometry x="210" y="52" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-70" value="panel-header" style="html=1;align=center;verticalAlign=middle;rotatable=0;" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-64">
+          <mxGeometry x="120" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;post&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validations: { form: Object, newItem: Object}&lt;br&gt;+ form: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ newItem: Object&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;month_term_op: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;day_term_op: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;attributeTypes: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;search_op: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;situation_op: []&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snack: Booloean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snackColor: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;snackText: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isShowMessage: Boolean&lt;/p&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isConfirm=false&lt;/span&gt;: Boolean&lt;br&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isLatLngPhoto: false,&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isLatLngVideo: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isProgress: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ panelIndex: [0,1,2,3,4,5],&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ valid1: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ valid2: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ valid3: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ valid4: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validManager4: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ submitted: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ submitted2: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ submitted3: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ submitted4: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ submittedManager4: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ files: [],&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ photos: [],&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ video: null,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mapCenter: [24.345400, 123.817531],&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;validateFormReCheck()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;validateStep1()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;validateStep2()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;step3MapFile()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;validateStep3()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;validateStep4()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;validateManagerStep4()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;formSubmit():&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;showMessage():&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="270" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-72" value="&lt;div&gt;dateErrors(): []&lt;/div&gt;&lt;div&gt;date2Errors(): []&lt;/div&gt;&lt;div&gt;radioDayErrors(): []&lt;/div&gt;&lt;div&gt;radioTimeErrors(): []&lt;/div&gt;&lt;div&gt;radioErrors(): []&lt;/div&gt;&lt;div&gt;radioFindLocationErrors()&lt;/div&gt;&lt;div&gt;categorynameErrors()&lt;/div&gt;&lt;div&gt;emailErrors()&lt;/div&gt;&lt;div&gt;newLargeCategoryErrors()&lt;/div&gt;&lt;div&gt;newSmallCategoryErrors()&lt;/div&gt;&lt;div&gt;newAnimalCategoryErrors()&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="390" width="190" height="203.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-73" value="computed" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-72">
+          <mxGeometry width="190" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-74" value="・位置情報の共有方法を変更する()&lt;br&gt;・位置情報を更新する()&lt;br&gt;・メッセージを表示する()&lt;br&gt;・全ての入力データエラーチェックを行う()&lt;br&gt;・Step1の入力データエラーチェックを行いキャッシュに保存する()&lt;br&gt;・Step2の入力データエラーチェックを行うキャッシュに保存する()&lt;br&gt;・一般市民の画像の位置情報をマップ表示しキャッシュに保存する()&lt;br&gt;・専門職または管理者の画像の位置情報に最も近い電柱IDの位置情報をマップ表示しキャッシュに保存する()&lt;br&gt;・入力データをDB保存しキャッシュを削除する()&lt;br&gt;・位置情報がない場合、ないことを通知する()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="390" height="203.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-75" value="操作" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontStyle=1" vertex="1" parent="dbNfo8pyNhIugIIxNkcV-74">
+          <mxGeometry width="389.1156462585034" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbNfo8pyNhIugIIxNkcV-76" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;entity-mixin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ entity: {&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;date: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;year_month: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;month_term: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;time: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;day_term: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;number: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;note: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;lat: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;lng: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;latlng_type: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_contact: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;emergency_rank: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_public: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_traffic_accident: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_photo: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;video_id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_date: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_time: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;pole_id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;pole_name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_pole_koho: false,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;large_category_id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;small_category_id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;animal_category_id: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;animal_size_id: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;animal_category_name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;animal_detail_size: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;log_id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;find_location: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;survival_state: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;is_evaluation: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;created: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;created_username: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;created_uid: null,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;updated: null,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;updated_username: null,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;updated_uid: null,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;user: {&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; role: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; attribute_type: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; username: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; email: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; phone: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; uid: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; reporter: {&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; name: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; email: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; phone: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; note: String,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; attribute_type: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;}&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;month_term_op: []&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;day_term_op: []&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;attributeTypes: []&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;search_op: []&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;situation_op: []&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="270" height="980" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
