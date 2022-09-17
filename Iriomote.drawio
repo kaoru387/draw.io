@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T02:41:32.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IAaZyVGatUqeRF0jk4DE" version="20.2.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-09-17T03:14:38.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rx-f5SYU9-Z9LsMDWdEw" version="20.2.7" type="github" pages="7">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="947" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -598,7 +598,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="コンポーネントとアクション">
-    <mxGraphModel dx="1247" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -754,7 +754,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel dx="1663" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1907" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,16 +771,16 @@
           <mxGeometry y="128" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-1" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;authUtils.js&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="450" width="270" height="470" as="geometry" />
+          <mxGeometry x="120" y="450" width="280" height="470" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-2" value="- firebaseApp: firebase/app&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- db: firebase/firestore&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- functions:&amp;nbsp;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- auth: firebase/auth&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- storage: firebase/firestore&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- Geofirestore: geofirestore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hTvzpUZakYhDAT4mc7S5-1" vertex="1">
-          <mxGeometry y="40" width="270" height="100" as="geometry" />
+          <mxGeometry y="40" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="hTvzpUZakYhDAT4mc7S5-1" vertex="1">
-          <mxGeometry y="140" width="270" height="8" as="geometry" />
+          <mxGeometry y="140" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="hTvzpUZakYhDAT4mc7S5-5" value="- constructor(firebaseConfig)&lt;br&gt;+ registerUser(email, password, username)&lt;br&gt;+&amp;nbsp;loginUser(email, password)&lt;br&gt;+&amp;nbsp;loginUserAnonymous(email, password)&lt;br&gt;+&amp;nbsp;forgetPassword(email)&lt;br&gt;+&amp;nbsp;logout()&lt;br&gt;+&amp;nbsp;setLoggeedInUser(user)&lt;br&gt;+&amp;nbsp;getAuthenticatedUser()&lt;br&gt;+&amp;nbsp;getAuthenticatedUserClaims()&lt;br&gt;+&amp;nbsp;getAuthUser()&lt;br&gt;+&amp;nbsp;getCollection()&lt;br&gt;+&amp;nbsp;getDocRef()&lt;br&gt;+&amp;nbsp;getDB()&lt;br&gt;+&amp;nbsp;updateProfileUser()&lt;br&gt;+&amp;nbsp;getDatabase()&lt;br&gt;+&amp;nbsp;httpEvent(method, params)&lt;br&gt;+&amp;nbsp;httpRequest(method, params)&lt;br&gt;+&amp;nbsp;storageRef()&lt;br&gt;+&amp;nbsp;geofire()&lt;br&gt;+&amp;nbsp;timestamp()&lt;br&gt;-&amp;nbsp;_handleError&lt;br&gt;-&amp;nbsp;firebaseError()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hTvzpUZakYhDAT4mc7S5-1" vertex="1">
-          <mxGeometry y="148" width="270" height="322" as="geometry" />
+          <mxGeometry y="148" width="280" height="322" as="geometry" />
         </mxCell>
         <mxCell id="-bENwOuNnBhxsgb7FSL4-7" value="FirebaseAuthBackend" style="swimlane;fontStyle=1;align=center;horizontal=1;startSize=30;collapsible=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="420" height="350" as="geometry" />
@@ -924,6 +924,15 @@
         <mxCell id="7GcY0zo95g9mvdubG4jB-45" value="operation1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7GcY0zo95g9mvdubG4jB-38">
           <mxGeometry y="163" width="140" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="sVXaig54EM1XNwy2ScSQ-1" value="Constraint1 specification" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVXaig54EM1XNwy2ScSQ-2" value="&lt;&lt;keyword&gt;&gt;" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" vertex="1" parent="sVXaig54EM1XNwy2ScSQ-1">
+          <mxGeometry width="160" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVXaig54EM1XNwy2ScSQ-3" value="ユーザーを登録する()&lt;br&gt;ログインする()&lt;br&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="660" width="230" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -936,11 +945,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-TzNlklCBTMYuNY19BIh" name="動画投稿フロー">
-    <mxGraphModel dx="1247" dy="949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-1" value="ユーザー" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-1" value="ユーザー&lt;br&gt;：メンバー" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="79" width="113" height="461" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-1" vertex="1">
@@ -949,21 +958,21 @@
         <mxCell id="FPO5fWVKHuGNavRMGsRe-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-1" vertex="1">
           <mxGeometry x="51" y="321" width="10" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-2" value="ストレージ&lt;br&gt;(生データ)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="79" width="100" height="411" as="geometry" />
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-2" value="File&lt;br&gt;：Firestore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="79" width="100" height="411" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-2" vertex="1">
           <mxGeometry x="45" y="81" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-2" vertex="1">
-          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-13" value="動画の位置情報を取得し、登録する" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="FPO5fWVKHuGNavRMGsRe-2" target="FPO5fWVKHuGNavRMGsRe-12" edge="1">
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-13" value="2: 動画の位置情報を取得し、登録する" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="FPO5fWVKHuGNavRMGsRe-2" target="FPO5fWVKHuGNavRMGsRe-12" edge="1">
           <mxGeometry x="-0.0547" relative="1" as="geometry">
             <mxPoint x="55" y="117" as="sourcePoint" />
             <mxPoint x="206" y="116.48000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-2" vertex="1">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-3" value="ストレージ&lt;br&gt;(圧縮データ)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="320" width="100" height="240" as="geometry" />
@@ -971,7 +980,7 @@
         <mxCell id="FPO5fWVKHuGNavRMGsRe-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-3" vertex="1">
           <mxGeometry x="45" y="119.5" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-4" value="データベース&lt;br&gt;(仮保存)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-4" value="name&lt;br&gt;：Firestore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="79" width="100" height="201" as="geometry" />
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-4" vertex="1">
@@ -995,16 +1004,9 @@
         <mxCell id="FPO5fWVKHuGNavRMGsRe-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="FPO5fWVKHuGNavRMGsRe-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-9" value="動画を選択する" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="FPO5fWVKHuGNavRMGsRe-8" edge="1">
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-9" value="1: 動画を選択する()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="FPO5fWVKHuGNavRMGsRe-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="160" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-10" value="動画の位置情報" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="FPO5fWVKHuGNavRMGsRe-4" edge="1">
-          <mxGeometry x="0.0745" y="1" relative="1" as="geometry">
-            <mxPoint x="181" y="239" as="targetPoint" />
-            <mxPoint x="490" y="240" as="sourcePoint" />
-            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FPO5fWVKHuGNavRMGsRe-16" value="目撃情報を投稿する" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="FPO5fWVKHuGNavRMGsRe-5" edge="1">
@@ -1013,7 +1015,7 @@
             <mxPoint x="320" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FPO5fWVKHuGNavRMGsRe-18" value="生データを圧縮（320×?）し、登録する" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="FPO5fWVKHuGNavRMGsRe-18" value="生データを圧縮（320×?）し、登録する" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1" source="FPO5fWVKHuGNavRMGsRe-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="495" y="438.75" as="sourcePoint" />
             <mxPoint x="800" y="439" as="targetPoint" />
