@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T07:39:11.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pleIgm2xmRj2IG9jC9VI" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-20T00:29:44.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YZ5img39WxFR0TFwn_OJ" version="20.2.7" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1702" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PH4hNPf0DCcjAWjpnXk8" name="ルーティング設計">
-    <mxGraphModel dx="1702" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1187" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w6C7kAGjo_hmEOLztkP7" name="ディレクトリ構成">
-    <mxGraphModel dx="3404" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,7 +286,7 @@
         <mxCell id="FTVI4QDHzCCOae7j7SPv-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k8TVzAes4x6XUOxmQE-b-1" target="FTVI4QDHzCCOae7j7SPv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k8TVzAes4x6XUOxmQE-b-1" value="helpers/firebase" style="html=1;" parent="1" vertex="1">
+        <mxCell id="k8TVzAes4x6XUOxmQE-b-1" value="helpers" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="250" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i8acgxmbvIOwtwEzB9W5-1" target="XeOfoGUYkg8DR5IupMJF-21" edge="1">
@@ -591,14 +591,14 @@
         <mxCell id="FTVI4QDHzCCOae7j7SPv-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVI4QDHzCCOae7j7SPv-1" target="XeOfoGUYkg8DR5IupMJF-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTVI4QDHzCCOae7j7SPv-1" value="helpers/firebase" style="html=1;" vertex="1" parent="1">
+        <mxCell id="FTVI4QDHzCCOae7j7SPv-1" value="firebase" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="250" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="コンポーネントとアクション">
-    <mxGraphModel dx="3404" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -751,7 +751,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel dx="2269" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1583" dy="1271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -875,7 +875,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-TzNlklCBTMYuNY19BIh" name="動画投稿シーケンス図">
-    <mxGraphModel dx="1702" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1187" dy="953" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
