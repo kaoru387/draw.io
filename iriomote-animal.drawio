@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T07:46:28.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pM3sQgYZt6vrni_3W3ql" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-20T07:50:09.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mkeKpNNm7BXNAEo4DvKE" version="20.2.7" type="github" pages="4">
   <diagram id="IE3pzxr3oEUSaLVv8lXV" name="クラス図">
     <mxGraphModel dx="1685" dy="4006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,12 +136,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hIh1ChuJxyx9XESBFCUH" name="マスター">
-    <mxGraphModel dx="1685" dy="4006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1978" dy="4011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mxls5sm8gaxz0scNDlvI-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;種名マスター管理｜animal-index&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ showUpload: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ subloader: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ total_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ faild_pole_id_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_title: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_message: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ animals: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ log_id: String&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DB更新後の再読込表示()｜afterUpdate(item: Object):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 表の行選択イベント()｜selectRow(row: Object):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;br&gt;&amp;nbsp;+&amp;nbsp;電柱IDが存在する場合カウントする()｜poleidFaildCount(val: String): Boolean&lt;br&gt;&amp;nbsp;+ エクセルファイルをストレージにアップロードしデータを取得し確認画面を表示する()｜importExcel()&lt;br&gt;&amp;nbsp;+ 確認画面を閉じてDB更新のバッチ処理をする()｜saveBatch():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ ポップアップ画面を閉じる()｜close():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 選択したファイルを保管する()｜handleAdd():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 選択したファイルを削除する()｜handleRemove():&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1003.75" y="-410" width="602.5" height="360" as="geometry" />
+          <mxGeometry x="1003.75" y="-400" width="602.5" height="360" as="geometry" />
         </mxCell>
         <mxCell id="K5iOLaLQOXkjreQuILAh-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;小動物マスター作成処理｜master-animal-controller&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validations: { form: Object, newItem: Object}&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 分類の選択肢｜largeCategoryOptions: Array&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 小分類の選択肢｜smallCategoryOptions: Array&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 種名の選択肢｜animalCategoryOptions: Array&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 大きさの選択肢｜animalSizeOptions: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ form: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ newItem: Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snack: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ snackColor: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;snackText: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isShowMessage: Boolean&lt;/p&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isConfirm&lt;/span&gt;: Boolean&lt;br&gt;&lt;div&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;+ 種名マスターを取得する()｜initialize():&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;位置情報の共有方法を変更する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;changeTileButton()&lt;/span&gt;&lt;br&gt;&amp;nbsp;+ 位置情報を更新する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;childLatlng()&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ メッセージを表示する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;messageChild(msg: String, color: String)&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ 位置情報を初期化する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;resetLatlng()&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="-892" width="450" height="400" as="geometry" />
@@ -189,7 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NnglhBU3Y1WqEYfHEu-W-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;種名マスター追加画面｜&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;dialog-add-animal-category&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ dialog: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;isBusy: Boolean&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 日付を変換する()｜dateConvert(val: String):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ 新規追加する()｜add()&lt;br&gt;&amp;nbsp;+ 更新する()｜save():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 削除する()｜deleteRow():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 選択したファイルを削除する()｜deleteMaster():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 更新後に｜afterUpdate(id: Integer)" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="-360" width="399" height="260" as="geometry" />
+          <mxGeometry x="1740" y="-350" width="399" height="260" as="geometry" />
         </mxCell>
         <mxCell id="NnglhBU3Y1WqEYfHEu-W-10" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NnglhBU3Y1WqEYfHEu-W-9" target="JPuBoLqRhAQCglUbNx_l-1">
           <mxGeometry relative="1" as="geometry">
@@ -231,7 +231,7 @@
             <mxPoint x="1670.8786313750807" y="-1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRc8_YW0KBDciHs1YMW8-6" value="電柱マスターDB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="NRc8_YW0KBDciHs1YMW8-5">
+        <mxCell id="NRc8_YW0KBDciHs1YMW8-6" value="分類マスターDB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="NRc8_YW0KBDciHs1YMW8-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NRc8_YW0KBDciHs1YMW8-7" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Ntw8nklsPWmY4mjxZN6-1">
@@ -240,7 +240,7 @@
             <mxPoint x="1120" y="-1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRc8_YW0KBDciHs1YMW8-8" value="電柱マスターDB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="NRc8_YW0KBDciHs1YMW8-7">
+        <mxCell id="NRc8_YW0KBDciHs1YMW8-8" value="小分類マスターDB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="NRc8_YW0KBDciHs1YMW8-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NRc8_YW0KBDciHs1YMW8-9" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="A9DeBv9x4gSPxqZSl16O-1" target="K5iOLaLQOXkjreQuILAh-1">
@@ -274,11 +274,53 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H2PsdFdOAAs1mfvP_kr6-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mxls5sm8gaxz0scNDlvI-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2213.75" y="-1000" as="sourcePoint" />
-            <mxPoint x="2177.5" y="-1086" as="targetPoint" />
+            <mxPoint x="1426.25" y="-400" as="sourcePoint" />
+            <mxPoint x="1390" y="-490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-3" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mxls5sm8gaxz0scNDlvI-1" target="K5iOLaLQOXkjreQuILAh-1">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="-682" as="sourcePoint" />
+            <mxPoint x="973" y="-681" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="A9DeBv9x4gSPxqZSl16O-1" target="K5iOLaLQOXkjreQuILAh-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1615.625" y="-710" as="sourcePoint" />
+            <mxPoint x="1550" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="8Ntw8nklsPWmY4mjxZN6-1" target="K5iOLaLQOXkjreQuILAh-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1400" y="-1030" as="sourcePoint" />
+            <mxPoint x="1290" y="-997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2225" y="-1030" />
+              <mxPoint x="1305" y="-1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NRc8_YW0KBDciHs1YMW8-13" target="K5iOLaLQOXkjreQuILAh-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2235" y="-970" as="sourcePoint" />
+            <mxPoint x="1315" y="-930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2625" y="-1030" />
+              <mxPoint x="1315" y="-1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-8" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NRc8_YW0KBDciHs1YMW8-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2142.5" y="-970" as="sourcePoint" />
+            <mxPoint x="1130" y="-1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2PsdFdOAAs1mfvP_kr6-9" value="大きさマスターDB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="H2PsdFdOAAs1mfvP_kr6-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
