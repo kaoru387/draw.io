@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T01:47:11.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="J-WWSYqWtzbKSFpOQisU" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-21T01:59:29.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Gn3rLAkhnR60KaB0oubj" version="20.2.7" type="github" pages="4">
   <diagram id="IE3pzxr3oEUSaLVv8lXV" name="クラス図">
     <mxGraphModel dx="1607" dy="3742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,8 +59,8 @@
         </mxCell>
         <mxCell id="oF89KEFaxCOrjEJHtqui-27" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2321" y="-1087.43" as="sourcePoint" />
-            <mxPoint x="2481" y="-1087.43" as="targetPoint" />
+            <mxPoint x="2440" y="-1020" as="sourcePoint" />
+            <mxPoint x="2600" y="-1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oF89KEFaxCOrjEJHtqui-28" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontColor=#000000;" parent="oF89KEFaxCOrjEJHtqui-27" connectable="0" vertex="1">
@@ -124,13 +124,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6Lwi7P6J9rDvHIAE1Znu-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;目撃現場の位置情報登録｜dialog-latlnginput&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ showUpload: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ subloader: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ total_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ faild_pole_id_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_title: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_message: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ animals: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ log_id: String&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2481" y="-550" width="400" height="339" as="geometry" />
+          <mxGeometry x="2460" y="-560" width="380" height="339" as="geometry" />
         </mxCell>
         <mxCell id="6Lwi7P6J9rDvHIAE1Znu-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;位置情報をマップ表示&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;｜map&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ showUpload: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ subloader: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ total_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ faild_pole_id_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_title: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_message: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ animals: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ log_id: String&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2900" y="-550" width="380" height="339" as="geometry" />
+          <mxGeometry x="2880" y="-560" width="380" height="339" as="geometry" />
         </mxCell>
         <mxCell id="6Lwi7P6J9rDvHIAE1Znu-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;選択&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;メニューバー｜options-bar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1982.5" y="-550" width="380" height="250" as="geometry" />
+          <mxGeometry x="2020" y="-550" width="380" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
