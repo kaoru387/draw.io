@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T10:12:14.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4a7hSG2lYLDGrED1Wkjs" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-22T01:07:48.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mjegkZNMwe2wNGNL5iU7" version="20.2.7" type="github" pages="4">
   <diagram id="IE3pzxr3oEUSaLVv8lXV" name="クラス図">
-    <mxGraphModel dx="1875" dy="3976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1813" dy="3991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,8 +156,17 @@
         <mxCell id="TkFxZ_Zrd77_CQUTQAHx-9" value="位置情報と電柱紐付け" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="TkFxZ_Zrd77_CQUTQAHx-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;電柱登録｜dialog-picture&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ dialog: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ form: Array&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ mapCenter: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ isNone: Boolean&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を閉じる()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ポップアップ画面を閉じる()｜close():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ 画像を登録する()｜add()&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 画像を削除&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;remove()&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;画像アップロード処理｜dialog-picture&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ dialog: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ form: Array&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ mapCenter: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ isNone: Boolean&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を閉じる()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ポップアップ画面を閉じる()｜close():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ 画像を登録する()｜add()&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 画像を削除&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;remove()&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="2560" y="-1470" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-13" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oF89KEFaxCOrjEJHtqui-7" target="TkFxZ_Zrd77_CQUTQAHx-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2350" y="-1185" as="sourcePoint" />
+            <mxPoint x="2547.5" y="-1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-14" value="画像アップロード処理" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="TkFxZ_Zrd77_CQUTQAHx-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
