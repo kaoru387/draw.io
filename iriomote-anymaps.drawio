@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T03:55:28.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OXCCcRtGoLj62hll9ria" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T04:00:53.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lyD87-W1wgL4wXhY56B1" version="20.3.6" type="github">
   <diagram id="1vQAmfwqQpi16tIRLO6_" name="ページ1">
     <mxGraphModel dx="1973" dy="3986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
             <mxPoint x="1070.63" y="-1814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pBoTxXE3n9o_mQpE5U--23" value="slot:&amp;nbsp;" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="9pBoTxXE3n9o_mQpE5U--22">
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--23" value="slot:&amp;nbsp;leftcontrol" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="9pBoTxXE3n9o_mQpE5U--22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--24" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="9pBoTxXE3n9o_mQpE5U--9" target="9pBoTxXE3n9o_mQpE5U--12">
@@ -101,7 +101,7 @@
             <mxPoint x="1205" y="-1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9pBoTxXE3n9o_mQpE5U--25" value="slot:&amp;nbsp;" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="9pBoTxXE3n9o_mQpE5U--24">
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--25" value="slot:&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22slot%3A%26amp%3Bnbsp%3Bleftcontrol%22%20style%3D%22resizable%3D0%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dtop%3BlabelBackgroundColor%3Dnone%3BfontColor%3D%23000000%3B%22%20connectable%3D%220%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221177.6765545469661%22%20y%3D%22-1523.2291482864703%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3Ele&lt;/span&gt;" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="9pBoTxXE3n9o_mQpE5U--24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
