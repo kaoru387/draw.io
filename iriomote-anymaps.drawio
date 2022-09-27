@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T01:20:57.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_uNcED-apxoUFwhbOIit" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T01:26:36.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="We60fI4DnSxlCSd7gU-l" version="20.3.6" type="github">
   <diagram id="1vQAmfwqQpi16tIRLO6_" name="関連図">
     <mxGraphModel dx="1375" dy="3451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="80" y="-2047" width="350" height="489" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マップレイヤー一覧｜&lt;/b&gt;&lt;b&gt;map&lt;/b&gt;&lt;b&gt;s&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 対象マスター｜items: Array&lt;/p&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp;+ レイヤーリスト｜mayLayers(): Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ 地点リスト｜mapLayerLocations(): Array&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ()｜(): Object&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="500" y="-1968" width="327" height="331" as="geometry" />
+          <mxGeometry x="510" y="-1999" width="300" height="331" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i&gt;component&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マップレイヤー追加｜&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;dialog-add-layer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを追加する()｜add():&amp;nbsp;&lt;/p&gt;&amp;nbsp;+ 自身を閉じるする()｜close()" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="-1930" width="290" height="136" as="geometry" />
@@ -159,7 +159,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--122" value="+ props {item, color, checked}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="1834" y="-1062" width="150" as="geometry" />
+          <mxGeometry x="1839" y="-1057" width="150" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--132" value="0..1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1487.25" y="-1132" as="geometry">
@@ -177,7 +177,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--141" value="+ owningInstance {subsets owner}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="2059" y="-1614" as="geometry" />
+          <mxGeometry x="2059" y="-1620" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--143" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9pBoTxXE3n9o_mQpE5U--136" target="9pBoTxXE3n9o_mQpE5U--12">
           <mxGeometry x="-0.8053" y="-9" relative="1" as="geometry">
@@ -202,7 +202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--149" value="+ owningInstance {subsets owner}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="2008" y="-1250" as="geometry" />
+          <mxGeometry x="2014" y="-1252" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--151" value="+ props &lt;br&gt;{item}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1510.25" y="-1257" as="geometry" />
@@ -222,6 +222,9 @@
             <mxPoint x="920.6300000000001" y="-1760.5" as="sourcePoint" />
             <mxPoint x="837" y="-1771.328956419698" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--156" value="+ props &lt;br&gt;{dialog: Boolean, item: Object}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1500" y="-1820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
