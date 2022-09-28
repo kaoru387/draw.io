@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T02:05:16.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HkNrQCIF6WZP7EFMpBJo" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T02:13:37.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ajG3FS0giSn_gt7v6JyW" version="20.3.6" type="github">
   <diagram id="1vQAmfwqQpi16tIRLO6_" name="関連図">
     <mxGraphModel dx="1560" dy="3971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="510" y="-2005" width="300" height="331" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i&gt;component&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マップレイヤー追加｜&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;dialog-add-layer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを追加する()｜add():&amp;nbsp;&lt;/p&gt;&amp;nbsp;+ 自身を閉じるする()｜close()" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="-1920" width="290" height="116" as="geometry" />
+          <mxGeometry x="1520" y="-1960" width="290" height="116" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i&gt;component&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マップ表示｜&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;map&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ url: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ zoom: Integer&lt;/div&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;attribution: String&lt;/span&gt;&lt;br&gt;&amp;nbsp;+ 各図形を保持｜&lt;span style=&quot;background-color: initial;&quot;&gt;shaps: Array&lt;/span&gt;&lt;br&gt;&amp;nbsp;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;iconColor: String&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 初期設定()｜init():&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 地図上の図形を全て削除し初期化する()｜resetMarkers()&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ 特定のレイヤの図形のみ削除する()｜removeMarkers(item: Object)&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 特定の図形を削除する()｜removeMarker(location: Object)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 特定のレイヤの図形のみ表示する()｜addMarkers(item: Object)&lt;/p&gt;&amp;nbsp;+ 特定の図形を表示する()｜addMarker(location: Object, color: String)&lt;br&gt;&amp;nbsp;+ ポップアップの表示内容（HTML）を作成する()｜createWindow(v: Object)&lt;br&gt;&amp;nbsp;+ マーカーを作成する()｜createMarker(v: Object)&lt;br&gt;&amp;nbsp;+ ラインを作成する()｜createPolyLine(v: Object):&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 円を作成する()｜createCircle(v: Object):&amp;nbsp;&lt;br&gt;&amp;nbsp;+ ポリゴンを作成する()｜createPolygon(v: Object):&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="-1780" width="420" height="300" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="1520" y="-1460" width="290" height="99.5" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マップレイヤーストア｜maplayer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ map_layers: Array&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 単一レイヤーを取得する()｜getMapLayer: Array&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを取得する()｜getMapLayers: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを作成する()｜createMapLayer: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを更新する()｜updateMapLayer: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーを削除する()｜deleteMapLayer: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 単一のレイヤー詳細を取得する()｜getMapLayerLocation: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤー詳細を取得する()｜getMapLayerLocations: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤー詳細を追加する()｜createMapLayerLocation: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤー詳細を更新する()｜updateMapLayerLocation: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤー詳細を削除する&lt;span style=&quot;background-color: initial;&quot;&gt;()｜deleteMapLayerLocation: Object&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="900.94" y="-2300" width="379.37" height="240" as="geometry" />
+          <mxGeometry x="900.94" y="-2290" width="379.37" height="230" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--16" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9pBoTxXE3n9o_mQpE5U--3" target="9pBoTxXE3n9o_mQpE5U--2">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -57,7 +57,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;パネル内容｜&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;panel-content&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ swatches: Array&lt;/span&gt;&lt;/div&gt;&amp;nbsp;+ color: String&lt;br&gt;&amp;nbsp;+&amp;nbsp;isClose: Boolean&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ レイヤー情報を更新する()｜save():&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レイヤーの詳細情報を編集する()｜close():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="-1330" width="290" height="146" as="geometry" />
+          <mxGeometry x="1520" y="-1321" width="290" height="146" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--55" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="9pBoTxXE3n9o_mQpE5U--21" target="9pBoTxXE3n9o_mQpE5U--2">
           <mxGeometry relative="1" as="geometry">
@@ -179,8 +179,8 @@
         <mxCell id="9pBoTxXE3n9o_mQpE5U--149" value="+ owningInstance {subsets owner}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="2014" y="-1252" as="geometry" />
         </mxCell>
-        <mxCell id="9pBoTxXE3n9o_mQpE5U--151" value="+ props &lt;br&gt;{item}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="1510.25" y="-1257" as="geometry" />
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--151" value="+ props {item}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-1330" as="geometry" />
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--153" value="+ props&lt;br&gt;&amp;nbsp;{item: Object, &lt;br&gt;hoverItem: Object}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1470" y="-1551" as="geometry" />
@@ -192,7 +192,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9pBoTxXE3n9o_mQpE5U--156" value="+ props &lt;br&gt;{dialog: Boolean, &lt;br&gt;item: Object}" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="1500" y="-1830" as="geometry" />
+          <mxGeometry x="1500" y="-1860" as="geometry" />
+        </mxCell>
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--159" value="0..*" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1480" y="-1080" as="geometry">
+            <mxPoint x="-6" y="-220" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pBoTxXE3n9o_mQpE5U--160" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="2014" y="-1560" as="geometry">
+            <mxPoint x="-503" y="-264" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
