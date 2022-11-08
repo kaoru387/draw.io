@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T08:24:45.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MviuopH93OvACsoiYNRm" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T08:26:18.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="E_KKMXByvzm9w1qd9aej" version="20.5.1" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
-    <mxGraphModel dx="1507" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -223,7 +223,7 @@
         <mxCell id="x-1pisbddP982Tr1hwO6-2" value="目撃情報を投稿する" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="110.00040916530277" width="119.99999999999999" height="48.28150572831424" as="geometry" />
         </mxCell>
-        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="ヤマネコ&lt;br&gt;目撃情報管理" style="html=1;" parent="1" vertex="1">
+        <mxCell id="x-1pisbddP982Tr1hwO6-3" value="目撃情報を見る" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="320.96163666121106" width="119.99999999999999" height="48.28150572831424" as="geometry" />
         </mxCell>
         <mxCell id="x-1pisbddP982Tr1hwO6-7" value="ユーザー管理" style="html=1;" parent="1" vertex="1">
@@ -241,17 +241,17 @@
         <mxCell id="uRFmQ4iOayufATUU-73G-3" value="あなたのアカウント" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="250.96122749590833" width="119.99999999999999" height="48.28150572831424" as="geometry" />
         </mxCell>
-        <mxCell id="lvOgyv689gHBNp5jwDrR-3" value="- path: /rareanimals/add.vue&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/index.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="lvOgyv689gHBNp5jwDrR-3" value="- path: /rareanimals/add&lt;br&gt;- component: () =&amp;gt; import(&#39;pages/rareanimals/add.vue&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="360" y="388.9960065466448" width="380" height="48.28150572831424" as="geometry" />
         </mxCell>
-        <mxCell id="lvOgyv689gHBNp5jwDrR-4" value="ヤマネコ&lt;br&gt;目撃情報投稿" style="html=1;" vertex="1" parent="1">
+        <mxCell id="lvOgyv689gHBNp5jwDrR-4" value="ヤマネコ目撃情報" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="389.96163666121106" width="119.99999999999999" height="48.28150572831424" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="w6C7kAGjo_hmEOLztkP7" name="ディレクトリ構成">
-    <mxGraphModel dx="1507" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -604,7 +604,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zPHbEFdA8hRM_Tb4UsNp" name="コンポーネントとアクション">
-    <mxGraphModel dx="1507" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -757,7 +757,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-TzNlklCBTMYuNY19BIh" name="動画投稿シーケンス図">
-    <mxGraphModel dx="1545" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -853,7 +853,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel dx="2218" dy="4421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2780" dy="4399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
