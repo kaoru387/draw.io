@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T10:39:47.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4x05ycEYIszfxPV6oFcP" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T11:51:53.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="p9zpXCUo0oHNOl8cCfra" version="20.5.3" type="github">
   <diagram id="zyart6CyCgwCbj-dB3mO" name="ページ1">
-    <mxGraphModel dx="2065" dy="4075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="4068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
         <mxCell id="S_mowEQjYaKNZHytIynT-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Excelファイルインポート｜dialog-fileupload&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ form: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ subloader: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ showUpload: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fali_pole_count: Integer&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を閉じる()｜close():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ エクセルファイルをストレージにアップロードしデータを取得する()｜importExcel()&lt;br&gt;&amp;nbsp;+ データを形成する()｜shapingData():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 選択したファイルを保管する()｜handleAdd():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 選択したファイルを削除する()｜handleRemove():&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-1210" width="480" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="tRx8zdkAiEcFHVcpoWSq-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;オプションバー｜options-bar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# callapseOn: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# isBusy: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ menu: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ searchWindow: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ targetField: Array&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 検索する()｜searchOn():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ()｜searchStart():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 日付期間を選択し抽出する()｜filterDateRange():&amp;nbsp;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ 検索条件をクリアする()｜clear()&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 複数データを削除&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;deleteRows()&lt;br&gt;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 複数データを登録&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;registerRows()&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="tRx8zdkAiEcFHVcpoWSq-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;オプションバー｜options-bar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ menu: Boolean&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ callapseOn: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ searchWord: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ dates: Array&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ isMyData: Boolean&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 検索する()｜searchStart():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 日付期間を選択し抽出する()｜filterDateRange():&amp;nbsp;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ 検索条件をクリアする()｜clear()&lt;br&gt;&amp;nbsp;+ インポート画面を表示する()｜openFileupload():&lt;br&gt;&amp;nbsp;+ 自身のデータのみ表示する()｜changeMyData():&lt;br&gt;&amp;nbsp;+ 検索窓を表示する()｜openMenu():&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-1470" width="320" height="230" as="geometry" />
         </mxCell>
         <mxCell id="tRx8zdkAiEcFHVcpoWSq-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;種名選択｜animal-category-select2&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ animal_category_id: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ large_category_name: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ small_category_name: String&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 種名の選択を変更する()｜changeSelect(animal_category_id):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 入力値より分類IDと小分類IDを取得する()｜setRelations(animal_category_id):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
@@ -172,6 +172,41 @@
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2130" y="-1557.5" as="sourcePoint" />
             <mxPoint x="2290" y="-1455" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-36" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-1">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="2130" y="-1547.5" as="sourcePoint" />
+            <mxPoint x="2290" y="-1595" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-37" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="S_mowEQjYaKNZHytIynT-9">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1600" y="-1330" as="sourcePoint" />
+            <mxPoint x="1770" y="-870" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-38" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tRx8zdkAiEcFHVcpoWSq-1">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1600" y="-1330" as="sourcePoint" />
+            <mxPoint x="1770" y="-1085" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-39" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="S_mowEQjYaKNZHytIynT-6">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1610" y="-1320" as="sourcePoint" />
+            <mxPoint x="1770" y="-1345" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-40" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-7">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1610" y="-1315" as="sourcePoint" />
+            <mxPoint x="1770" y="-1615" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
