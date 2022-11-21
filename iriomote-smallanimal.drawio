@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T05:34:12.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8z3cEXWKOls5sI9KaeYy" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T05:34:38.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sdii4ZwnlMiS89Jg0l6m" version="20.5.3" type="github">
   <diagram id="Y9c0e2rDBJw9lQDXXatF" name="ページ1">
     <mxGraphModel dx="2315" dy="4102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
           <mxGeometry x="1760" y="-1830" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ek5NFmnnPQNWK_il1TbJ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;目撃現場の位置情報登録｜dialog-latlnginput&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ mapCenter: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ isLatLngPhoto: Boolean&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ form: Object&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 閉じる()｜close():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 更新する()｜save():&amp;nbsp;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ 位置情報共有方法を変更する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;changeTileButton():&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ ()｜&lt;span style=&quot;background-color: initial;&quot;&gt;step3MapFile():&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ ()｜&lt;span style=&quot;background-color: initial;&quot;&gt;childLatlng()&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ ()｜&lt;span style=&quot;background-color: initial;&quot;&gt;resetLatlng()&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="-1130" width="380" height="240" as="geometry" />
+          <mxGeometry x="1260" y="-1120" width="380" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Ek5NFmnnPQNWK_il1TbJ-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;画像アップロード処理｜dialog-picture&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ dialog: Boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ files: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ form: Array&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 表示する()｜open(item: Object):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 閉じる()｜close():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ 画像を登録する()｜add(file: Object):&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 画像を削除&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;remove():&lt;br&gt;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ &lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;childLatlng():&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1760" y="-960" width="300" height="200" as="geometry" />
@@ -212,6 +212,13 @@
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2010" y="-1100" as="sourcePoint" />
             <mxPoint x="2090" y="-1100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ek5NFmnnPQNWK_il1TbJ-8" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="By_VAuEr0I4qx7pVThNe-3" target="Ek5NFmnnPQNWK_il1TbJ-1">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="1609.9999999999995" y="-1290.8125" as="sourcePoint" />
+            <mxPoint x="1769.9999999999995" y="-900" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
