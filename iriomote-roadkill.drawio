@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T11:28:25.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KSaNFXSxS7Eq5b00NFOX" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T11:31:05.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DNpm1oXLOHY62tkS-yN5" version="20.5.3" type="github">
   <diagram id="zyart6CyCgwCbj-dB3mO" name="ページ1">
     <mxGraphModel dx="2772" dy="4436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
           <mxGeometry x="630" y="-1824.19" width="360" height="186.38" as="geometry" />
         </mxCell>
         <mxCell id="S_mowEQjYaKNZHytIynT-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ロードキル調査一覧｜roadkill-table&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ columns: Array&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ sortBy: String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ isNone: Boolean&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 初期設定()｜initialize():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DB更新後の再表示｜afterUpdate():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 表示データを抽出する｜tableFilter():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 行選択時の処理()｜selectRow(row: Object):&lt;br&gt;+ 更新する()｜save(item: Object, key: String):&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 種名を更新する()｜saveAnimalCategory(item: Object):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 種名選択の変更を保持する()｜changeAnimalCategory(item: Object):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 編集ポップアップ画面を閉じる()｜closeDialog():&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 電柱設定画面を表示する()｜modalOpenPole():&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ データ表示件数を増やす()｜moreDisplay():&lt;br&gt;&amp;nbsp;+ 次のデータを追加取得する()｜fetchItems():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 指定された件数分を元データより取得する()｜callDatabase():&lt;br&gt;&amp;nbsp;+ データを全て表示する()｜allDisplay():&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="-1740" width="420" height="300" as="geometry" />
+          <mxGeometry x="2160" y="-1840" width="420" height="300" as="geometry" />
         </mxCell>
         <mxCell id="S_mowEQjYaKNZHytIynT-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ロードキルデータストア｜roadkill&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ poles: Array&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 単一ロードキルデータを取得する()｜getRoadkill():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ロードキルデータを取得する()｜getRoadkills():&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ロードキルデータを作成する()｜createRoadkill():&lt;/p&gt;&amp;nbsp;+&amp;nbsp;ロードキルデータを更新する()｜updateRoadkill():&lt;br&gt;&amp;nbsp;+ ストレージへファイルをアップロードする()｜uploadExcel()&lt;br&gt;&amp;nbsp;+ ロードキルデータの登録をバッチ処理する()｜batchDocuments()&lt;br&gt;&amp;nbsp;+ ロードキルデータの更新をバッチ処理する()｜batchUpdateDocuments()&lt;br&gt;&amp;nbsp;+ ロードキルデータの削除をバッチ処理する()｜batchDelDocuments()" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1080" y="-2280" width="410" height="200" as="geometry" />
@@ -52,25 +52,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y2dZn6hwQQGVv2xvkYA9-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;日付編集｜form-date&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# item: Object&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ あいまい選択切り替え()｜rememberChange(val):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="-1610" width="300" height="110" as="geometry" />
+          <mxGeometry x="2680" y="-1800" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Y2dZn6hwQQGVv2xvkYA9-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;時刻編集｜form-time&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# item: Object&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ あいまい選択切り替え()｜rememberChange(val):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="-1470" width="300" height="110" as="geometry" />
+          <mxGeometry x="2680" y="-1668.68" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Y2dZn6hwQQGVv2xvkYA9-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Excelインポートデータ一覧｜import-table&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ columns: Array&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ sortBy: String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ isNone: Boolean&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 初期設定()｜initialize():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DB更新後の再表示｜afterUpdate():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 表示データを抽出する｜tableFilter():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 行選択時の処理()｜selectRow(row: Object):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;+ ()｜ searchOn()&lt;br&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 表の行をすべて一括選択&lt;/span&gt;する()｜&lt;span style=&quot;background-color: initial;&quot;&gt;selectAllMyData()&lt;br&gt;&lt;/span&gt;&amp;nbsp;+ データ表示件数を増やす()｜moreDisplay():&lt;br&gt;&amp;nbsp;+ 次のデータを追加取得する()｜fetchItems():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 指定された件数分を元データより取得する()｜callDatabase():&lt;br&gt;&amp;nbsp;+ データを全て表示する()｜allDisplay():&amp;nbsp;&lt;br&gt;&amp;nbsp;+ 種名マスタに新規追加する()｜addMasterCategory():&lt;br&gt;&amp;nbsp;+ 種名置換をバッチ処理する()｜batchReplacement():&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="-2050" width="360" height="290" as="geometry" />
+          <mxGeometry x="1760" y="-1840" width="360" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Y2dZn6hwQQGVv2xvkYA9-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;未登録種名修正画面｜dialog-unregister&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tab: String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 分類群を選択()｜changeSelectNewLarge():&lt;br&gt;+ 小分類群を選択()｜changeSelectNewSmall():&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-960" width="279" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-11" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="Y2dZn6hwQQGVv2xvkYA9-4" edge="1">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-11" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="Y2dZn6hwQQGVv2xvkYA9-4" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2129.9999999999995" y="-1310" as="sourcePoint" />
             <mxPoint x="2289.9999999999995" y="-1310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-12" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="Y2dZn6hwQQGVv2xvkYA9-6" edge="1">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-12" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="Y2dZn6hwQQGVv2xvkYA9-6" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2120" y="-1090" as="sourcePoint" />
             <mxPoint x="2291" y="-1135" as="targetPoint" />
@@ -160,28 +160,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-39" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="S_mowEQjYaKNZHytIynT-6" edge="1">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-39" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.467;entryY=1.003;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="S_mowEQjYaKNZHytIynT-6" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1610" y="-1320" as="sourcePoint" />
             <mxPoint x="1770" y="-1345" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1600" y="-1440" />
+              <mxPoint x="2356" y="-1440" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-40" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-7" edge="1">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-40" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-7" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1610" y="-1315" as="sourcePoint" />
             <mxPoint x="1770" y="-1615" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1600" y="-1440" />
+              <mxPoint x="1940" y="-1440" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-1" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="S_mowEQjYaKNZHytIynT-5">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-1" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="S_mowEQjYaKNZHytIynT-5">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1130" y="-1714.435" as="sourcePoint" />
             <mxPoint x="1000" y="-1721" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1680" y="-1665" />
-              <mxPoint x="1680" y="-1930" />
+              <mxPoint x="2265" y="-1930" />
               <mxPoint x="900" y="-1930" />
             </Array>
           </mxGeometry>
