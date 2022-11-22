@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:22:00.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pWGX67emyawgYgllxKIv" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:23:25.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="C2Z05ZAE1I3aO8vmPOB3" version="20.5.3" type="github">
   <diagram id="zyart6CyCgwCbj-dB3mO" name="ページ1">
-    <mxGraphModel dx="1805" dy="4133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2683" dy="4075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,6 +237,9 @@
               <mxPoint x="2630" y="-725" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uo2nmi02qltqE9-qmbIV-16" value="Slotでindexから参照すると挙動がおかしくなる。&lt;br&gt;→idの関係？" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="-1540" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
