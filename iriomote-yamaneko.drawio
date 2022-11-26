@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T05:03:23.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_87aYzZYYsWSZd7jVSQv" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-26T08:29:59.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kic5UC_8FrUDllWZZQKk" version="20.5.3" type="github">
   <diagram id="sGh4CZPOP6-HCWjMFk3K" name="ページ1">
-    <mxGraphModel dx="1890" dy="3993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2157" dy="3985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,10 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;マスターストア｜master&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ large_categories: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ small_categories: Array&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animal_categories: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animal_sizes: Array&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 分類を取得する()｜getLargeCategories():&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 小分類を取得する()｜getSmallCategories():&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 種名を取得する()｜getAnimalCategories():&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 大きさを取得する()｜getAnimalSizes():&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="-2280" width="280" height="185.5" as="geometry" />
-        </mxCell>
-        <mxCell id="bEE76rGEyNJp1CKL3x8u-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;電柱データストア｜pole&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ large_categories: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ small_categories: Array&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animal_categories: Array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animal_sizes: Array&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 電柱を取得する()｜gePoles():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Blt%3B%26amp%3Blt%3Bcreate%26amp%3Bgt%3B%26amp%3Bgt%3B%22%20style%3D%22endArrow%3Dopen%3Bhtml%3D1%3Brounded%3D0%3Balign%3Dcenter%3BverticalAlign%3Dbottom%3Bdashed%3D1%3BendFill%3D0%3BlabelBackgroundColor%3Dnone%3BfontColor%3D%23000000%3BstartSize%3D22%3BendSize%3D6%3BsourcePerimeterSpacing%3D0%3BtargetPerimeterSpacing%3D0%3BstrokeWidth%3D2%3BjumpSize%3D6%3BexitX%3D0%3BexitY%3D0%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0.5%3BentryY%3D1%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%221156.250000000001%22%20y%3D%22-1780%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22865%22%20y%3D%22-2054.5%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AD%E3%83%AB%E8%AA%BF%E6%9F%BBDB%E9%80%A3%E6%90%BA%22%20style%3D%22resizable%3D0%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dtop%3BlabelBackgroundColor%3Dnone%3BfontColor%3D%23000000%3B%22%20connectable%3D%220%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphMode&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="840" y="-2240" width="240" height="140" as="geometry" />
+          <mxGeometry x="1400" y="-2265.5" width="280" height="185.5" as="geometry" />
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-21" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;dashed=1;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEE76rGEyNJp1CKL3x8u-5" target="bEE76rGEyNJp1CKL3x8u-2">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -98,15 +95,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-25" value="種名DB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="bEE76rGEyNJp1CKL3x8u-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bEE76rGEyNJp1CKL3x8u-26" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEE76rGEyNJp1CKL3x8u-1" target="bEE76rGEyNJp1CKL3x8u-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1490" y="-1874.63" as="sourcePoint" />
-            <mxPoint x="830" y="-2005.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bEE76rGEyNJp1CKL3x8u-27" value="電柱DB連携" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fontColor=#000000;" connectable="0" vertex="1" parent="bEE76rGEyNJp1CKL3x8u-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;日付範囲選択｜date&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;-picker-range&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tab: String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 日付範囲を初期化()｜initDate(range: ):&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 日付範囲を初期化()｜isDateRange():&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
@@ -140,8 +128,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bEE76rGEyNJp1CKL3x8u-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;小動物データストア｜animal&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animals: Array&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 小動物を取得する()｜getAnimals(): Array&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="-2240" width="250" height="120" as="geometry" />
+        <mxCell id="bEE76rGEyNJp1CKL3x8u-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ヤマネコデータストア｜yamaneko&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animals: Array&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 小動物を取得する()｜getAnimals(): Array&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-2200" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ユーザー登録｜user-popover&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# item: Object&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# title: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;# color: String&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="2560" y="-1365" width="240" height="120" as="geometry" />
@@ -245,6 +233,21 @@
         </mxCell>
         <mxCell id="bEE76rGEyNJp1CKL3x8u-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ライン設定&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;｜map-sectionline&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ showUpload: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ subloader: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ total_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ faild_pole_id_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_title: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_message: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ animals: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ log_id: String&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="-420" width="360" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bEE76rGEyNJp1CKL3x8u-59" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=1;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.68;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bEE76rGEyNJp1CKL3x8u-46" target="bEE76rGEyNJp1CKL3x8u-60">
+          <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
+            <mxPoint x="2190" y="-574" as="sourcePoint" />
+            <mxPoint x="2400" y="-1270" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2900" y="-959" />
+              <mxPoint x="2900" y="-2290" />
+              <mxPoint x="960" y="-2290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEE76rGEyNJp1CKL3x8u-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;目撃情報データストア｜witness&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animals: Array&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 小動物を取得する()｜getAnimals(): Array&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-2218.31" width="250" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
