@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T02:26:31.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="b_WWKNf87ctAdoUKsQC2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-26T05:00:13.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ujeLp6lM3FoBtOH-nVoE" version="20.5.3" type="github">
   <diagram id="M-PPtqfPxr3iTAdyskoe" name="ページ1">
-    <mxGraphModel dx="3047" dy="4198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1890" dy="3993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,6 +216,9 @@
         </mxCell>
         <mxCell id="A2DtMqtqLgV5lxE1PWke-78" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;parts&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;androidの位置情報設定｜setting&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;-android&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ isShowMessage: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ sound: Boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ widgets: Boolean&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ close():&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;" parent="1" vertex="1">
           <mxGeometry x="880" y="-360" width="243" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eB5aTbJ8zXi8wIEzPGst-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ライン設定&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;｜map-sectionline&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;+ dialog: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ fileList: Array&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ showUpload: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ subloader: Boolean&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ total_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ faild_pole_id_count: Integer&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_title: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ last_message: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ animals: Array&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ log_id: String&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ポップアップ画面を表示する()｜open():&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="-989.75" width="360" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
