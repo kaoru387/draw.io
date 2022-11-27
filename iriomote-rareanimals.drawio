@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T01:21:05.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eL81-GPGcH7Py6JocE_J" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-27T01:24:36.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sbzm4tnIRZeZAa1VF7ZY" version="20.5.3" type="github">
   <diagram id="M-PPtqfPxr3iTAdyskoe" name="ページ1">
     <mxGraphModel dx="2068" dy="3985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
           <mxGeometry x="1960" y="-1760" width="380" height="200" as="geometry" />
         </mxCell>
         <mxCell id="A2DtMqtqLgV5lxE1PWke-49" value="画像取消の確認メッセージ" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2960" y="-1800" width="290" height="60" as="geometry" />
+          <mxGeometry x="2960" y="-1800" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A2DtMqtqLgV5lxE1PWke-50" value="&amp;lt;&amp;lt;slot&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="A2DtMqtqLgV5lxE1PWke-43" target="A2DtMqtqLgV5lxE1PWke-49" edge="1">
           <mxGeometry x="0.1429" relative="1" as="geometry">
