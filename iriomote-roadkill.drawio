@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T02:46:16.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7Exbatvv-QHRK1HQY0uT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T02:17:02.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pEHGWOEJEFEgGeCDvbJr" version="20.5.3" type="github">
   <diagram id="zyart6CyCgwCbj-dB3mO" name="ページ1">
-    <mxGraphModel dx="2305" dy="4021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="4296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,14 +146,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-37" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="S_mowEQjYaKNZHytIynT-9" edge="1" source="S_mowEQjYaKNZHytIynT-3">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-37" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="S_mowEQjYaKNZHytIynT-9" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1600" y="-1330" as="sourcePoint" />
             <mxPoint x="1770" y="-870" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-38" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="tRx8zdkAiEcFHVcpoWSq-1" edge="1" source="S_mowEQjYaKNZHytIynT-3">
+        <mxCell id="Y2dZn6hwQQGVv2xvkYA9-38" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="tRx8zdkAiEcFHVcpoWSq-1" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1370" y="-1090" as="sourcePoint" />
             <mxPoint x="1770" y="-1085" as="targetPoint" />
@@ -182,7 +182,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-1" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="S_mowEQjYaKNZHytIynT-5">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-1" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-6" target="S_mowEQjYaKNZHytIynT-5" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2260" y="-1850" as="sourcePoint" />
             <mxPoint x="1000" y="-1721" as="targetPoint" />
@@ -193,41 +193,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;+ 未登録の種名を一括更新する｜saveMasterCategory()&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ 編集の対象データを取得する()｜setUnResister(unResisterMaster: Array):&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ データ更新後の表を再表示()｜afterUpdate(item: Object):&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;+ 未登録の種名を一括更新する｜saveMasterCategory()&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ 編集の対象データを取得する()｜setUnResister(unResisterMaster: Array):&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ データ更新後の表を再表示()｜afterUpdate(item: Object):&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="-1450" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;+ 種名を更新する()｜saveAnimalCategory(item: Object):&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;+ 種名選択の変更を保持する()｜changeAnimalCategory(item: Object):&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;+ 種名を更新する()｜saveAnimalCategory(item: Object):&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;+ 種名選択の変更を保持する()｜changeAnimalCategory(item: Object):&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2350" y="-1960" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-10" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y2dZn6hwQQGVv2xvkYA9-7" target="S_mowEQjYaKNZHytIynT-5">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-10" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Y2dZn6hwQQGVv2xvkYA9-7" target="S_mowEQjYaKNZHytIynT-5" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="2275" y="-1830" as="sourcePoint" />
             <mxPoint x="900" y="-1814" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1940" y="-1930" />
+              <mxPoint x="1955" y="-1930" />
               <mxPoint x="900" y="-1930" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-11" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-8">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-11" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="Y2dZn6hwQQGVv2xvkYA9-8" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1610" y="-1180" as="sourcePoint" />
             <mxPoint x="1770" y="-1090" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-12" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="tRx8zdkAiEcFHVcpoWSq-2">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-12" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="S_mowEQjYaKNZHytIynT-3" target="tRx8zdkAiEcFHVcpoWSq-2" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1625" y="-1075" as="sourcePoint" />
             <mxPoint x="1770" y="-905" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-14" value="タブ切り替え" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-14" value="タブ切り替え" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2060" y="-2010" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-15" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=1;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="S_mowEQjYaKNZHytIynT-6">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-15" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#000000;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;exitX=1;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="S_mowEQjYaKNZHytIynT-6" edge="1">
           <mxGeometry x="-0.1894" y="-2" width="160" relative="1" as="geometry">
             <mxPoint x="1625" y="-1075" as="sourcePoint" />
             <mxPoint x="2200" y="-725" as="targetPoint" />
@@ -238,10 +238,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-16" value="Slotでindexから参照すると挙動がおかしくなる。&lt;br&gt;原因→idの関係？" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-16" value="Slotでindexから参照すると挙動がおかしくなる。&lt;br&gt;原因→idの関係？" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="2550" y="-1540" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="uo2nmi02qltqE9-qmbIV-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;+ props&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: right;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;item: Object,&amp;nbsp;&lt;br&gt;largeCategories: Array,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;smallCategories: Array,&lt;br&gt;animalCategories: Array}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uo2nmi02qltqE9-qmbIV-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;+ props&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: right;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;item: Object,&amp;nbsp;&lt;br&gt;largeCategories: Array,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;smallCategories: Array,&lt;br&gt;animalCategories: Array}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1770" y="-1950" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
