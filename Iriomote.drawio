@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T02:38:41.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="o-T9WCKiYB2DFVztzG78" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-06T10:15:53.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fKmZO_sdKwjim3-6miql" version="20.5.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1612" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -712,7 +712,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JzsOTZQr8vqU6cWUlJ8I" name="クラス図">
-    <mxGraphModel dx="2687" dy="4263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2277" dy="4264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -748,6 +748,12 @@
         </mxCell>
         <mxCell id="utFu0CrZDebmSiRAd82x-4" value="画像取り消し確認モーダル" style="fontStyle=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1890" y="-1335" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="utFu0CrZDebmSiRAd82x-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;日付編集｜form-date&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# item: Object&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ あいまい選択切り替え()｜rememberChange(val):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="-2380" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="utFu0CrZDebmSiRAd82x-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;時刻編集｜form-time&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;# item: Object&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ あいまい選択切り替え()｜rememberChange(val):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 入力チェック｜executeValid()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="-2250" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
