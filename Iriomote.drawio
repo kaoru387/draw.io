@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T01:23:58.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KoHeAox73MPp7BaiVv1N" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-06T01:29:46.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1QHVeae44gTLjPL2fmfE" version="20.5.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1274" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -297,11 +297,11 @@
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i8acgxmbvIOwtwEzB9W5-1" target="XeOfoGUYkg8DR5IupMJF-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="394" y="965" as="targetPoint" />
+            <mxPoint x="394" y="975" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i8acgxmbvIOwtwEzB9W5-1" value="layouts" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="910" width="120" height="50" as="geometry" />
+          <mxGeometry x="160" y="920" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y3LG4vWeNaRPxdg7XvF6-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O7MH_GExK1gjWggyx-Ae-2" target="O7MH_GExK1gjWggyx-Ae-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -321,11 +321,11 @@
         <mxCell id="XeOfoGUYkg8DR5IupMJF-17" value="fireauth.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="184" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XeOfoGUYkg8DR5IupMJF-18" value="authUtils.js&#xa;authUtils-v8.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="241" width="120" height="48" as="geometry" />
+        <mxCell id="XeOfoGUYkg8DR5IupMJF-18" value="authUtils.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="270" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-21" value="default.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="915" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="925" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XeOfoGUYkg8DR5IupMJF-27" value="authentication.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="114" width="120" height="40" as="geometry" />
@@ -343,85 +343,94 @@
           <mxGeometry x="320" y="240" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-1" value="horizontal.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="970" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="980" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-2" value="root" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="54" y="109" width="68" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-3" value="components" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="310" width="120" height="50" as="geometry" />
+          <mxGeometry x="160" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-4" value="manager.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1030" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-5" value="guest.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1090" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="1100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-7" value="panel-header.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="381" width="119" height="40" as="geometry" />
+          <mxGeometry x="640" y="391" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-8" value="wedgets" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="120" height="50" as="geometry" />
+          <mxGeometry x="320" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-10" value="Top.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="119" height="40" as="geometry" />
+          <mxGeometry x="320" y="450" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-11" value="Page-header.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="380" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-12" value=".vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="610" width="119" height="40" as="geometry" />
+          <mxGeometry x="1030" y="240" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-13" value="Footer.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="321" y="500" width="119" height="40" as="geometry" />
+          <mxGeometry x="321" y="510" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-15" value="form-parts.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="320" width="119" height="40" as="geometry" />
+          <mxGeometry x="640" y="330" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-16" value="panels" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="310" width="120" height="50" as="geometry" />
+          <mxGeometry x="480" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n8Erk2Rdyr4hGDqdCFML-7" target="n8Erk2Rdyr4hGDqdCFML-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-18" value="step-form.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="439" width="119" height="40" as="geometry" />
+          <mxGeometry x="640" y="449" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8Erk2Rdyr4hGDqdCFML-19" value="tile.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="500" width="119" height="40" as="geometry" />
+          <mxGeometry x="640" y="510" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-1" value="form-date.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480.5" y="380" width="119" height="40" as="geometry" />
+          <mxGeometry x="480.5" y="390" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-2" value="form-time.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="440" width="119" height="40" as="geometry" />
+          <mxGeometry x="480" y="450" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-3" value="Map-embed.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480.5" y="500" width="119" height="40" as="geometry" />
+          <mxGeometry x="480.5" y="510" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-4" value="Right-sidebar.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="119" height="40" as="geometry" />
+          <mxGeometry x="320" y="570" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-5" value="Table-pageinfo.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="560" width="119" height="40" as="geometry" />
+          <mxGeometry x="480" y="570" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-6" value="Loading.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="680" width="119" height="40" as="geometry" />
+          <mxGeometry x="320" y="690" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-8" value="Loading2.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="740" width="119" height="40" as="geometry" />
+          <mxGeometry x="320" y="750" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-9" value="Right-sidebar-&#xa;guest.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;fillColor=#FFF4C3;" vertex="1" parent="1">
-          <mxGeometry x="320" y="620" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-10" value="mixins" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="800" width="120" height="50" as="geometry" />
+          <mxGeometry x="161" y="810" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-12" value="common.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="800" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="810" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-13" value="common-&#xa;controller.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="319" y="860" width="120" height="40" as="geometry" />
+          <mxGeometry x="319" y="870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Yu2rK5AGQnLonyTpk2-16" value="authUtils-v8.js" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="217.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4Yu2rK5AGQnLonyTpk2-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVI4QDHzCCOae7j7SPv-1" target="p4Yu2rK5AGQnLonyTpk2-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="275" as="sourcePoint" />
+            <mxPoint x="490" y="275" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
