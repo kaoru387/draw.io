@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T01:46:35.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Q26B1TskIkucVgORULrt" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-06T01:50:04.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K6Pht6lQpGga9S14rDhZ" version="20.5.3" type="github" pages="6">
   <diagram id="CYw_7dBn6tgF-sKRq3Px" name="全体構成">
     <mxGraphModel dx="1612" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -391,19 +391,19 @@
           <mxGeometry x="640" y="510" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-1" value="form-date.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480.5" y="390" width="119" height="40" as="geometry" />
+          <mxGeometry x="480.5" y="459" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-2" value="form-time.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="450" width="119" height="40" as="geometry" />
+          <mxGeometry x="480" y="519" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-3" value="Map-embed.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480.5" y="510" width="119" height="40" as="geometry" />
+          <mxGeometry x="480.5" y="579" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-4" value="Right-sidebar.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="320" y="570" width="119" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p4Yu2rK5AGQnLonyTpk2-5" value="Table-pageinfo.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="570" width="119" height="40" as="geometry" />
+        <mxCell id="p4Yu2rK5AGQnLonyTpk2-5" value="Table-pages.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="639" width="119" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p4Yu2rK5AGQnLonyTpk2-6" value="Loading.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="690" width="119" height="40" as="geometry" />
@@ -446,6 +446,12 @@
         </mxCell>
         <mxCell id="biZ8jEqWv-lsRocstBnn-3" value="step-form.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="419" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="biZ8jEqWv-lsRocstBnn-4" value="Table-pageinfo.vue" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="699" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="biZ8jEqWv-lsRocstBnn-11" value="info" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
