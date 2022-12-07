@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T02:39:44.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CyjHKLSGO6ZUFQe54zPP" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-07T02:03:41.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Bub3cPEZUsad0gd6mJP2" version="20.5.3" type="github" pages="4">
   <diagram id="IE3pzxr3oEUSaLVv8lXV" name="クラス図｜小動物管理">
-    <mxGraphModel dx="2687" dy="4120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="4015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,9 +169,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TkFxZ_Zrd77_CQUTQAHx-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;bind&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;画像処理｜picture-embed&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;" parent="1" vertex="1">
-          <mxGeometry x="3200" y="-1440" width="230" height="80" as="geometry" />
+          <mxGeometry x="3170" y="-1410" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-18" value="&amp;lt;&amp;lt;slot&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TkFxZ_Zrd77_CQUTQAHx-10" target="TkFxZ_Zrd77_CQUTQAHx-17" edge="1">
+        <mxCell id="TkFxZ_Zrd77_CQUTQAHx-18" value="&amp;lt;&amp;lt;slot&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;fontColor=#000000;startSize=22;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeWidth=2;jumpSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TkFxZ_Zrd77_CQUTQAHx-10" target="TkFxZ_Zrd77_CQUTQAHx-17" edge="1">
           <mxGeometry x="0.1429" relative="1" as="geometry">
             <mxPoint x="2810" y="-1460" as="sourcePoint" />
             <mxPoint x="2927.5" y="-1410" as="targetPoint" />
