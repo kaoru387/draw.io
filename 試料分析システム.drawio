@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T05:31:01.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="irJnGcPQhqiYJ5F7WLFR" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T05:32:34.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="miJy0SiDnn83YfeJ5E0u" version="21.0.6" type="github" pages="2">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,16 +164,16 @@
           <mxGeometry x="1280" y="420" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3FiCny1yToZSxt5dMoCD-14" value="依頼書に対し&lt;br&gt;承認を登録する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="597.5" width="160" height="45" as="geometry" />
+          <mxGeometry x="840" y="572.5" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="3FiCny1yToZSxt5dMoCD-15" value="依頼書に対し&lt;br&gt;試験結果を入力する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="725" width="160" height="45" as="geometry" />
+        <mxCell id="3FiCny1yToZSxt5dMoCD-15" value="依頼書に対し&lt;br&gt;分析結果を入力する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="760" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="3FiCny1yToZSxt5dMoCD-22" value="依頼書に対し&lt;br&gt;試験結果を入力する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3FiCny1yToZSxt5dMoCD-22" value="依頼書の分析結果に対し&lt;br&gt;審査結果を入力する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="872.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3FiCny1yToZSxt5dMoCD-23" value="異常値番号を発行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="725" width="160" height="45" as="geometry" />
+          <mxGeometry x="1280" y="760" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3FiCny1yToZSxt5dMoCD-24" value="証明書を発行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="872.5" width="160" height="45" as="geometry" />
