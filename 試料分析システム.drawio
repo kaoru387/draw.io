@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T05:39:59.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pmdZqgeNGUah92rE9Wmk" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T05:54:27.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wRp29y4WTvP8KghTudIx" version="21.0.6" type="github" pages="4">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1279,6 +1279,46 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CwNY29lNAGouGqTtZwZ3" name="フロー図">
+    <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EoczrBoc5lSG-0Xsdlkv-1" value="受付" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="200" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="O-r9pqTzfZU85D3BQUUk-1" value="ああああ&lt;br&gt;いいいい" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="EoczrBoc5lSG-0Xsdlkv-1">
+          <mxGeometry x="30" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_1LRgNbLkFxFIjsRB0WL-1" value="現場担当者" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="200" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="_1LRgNbLkFxFIjsRB0WL-2" value="試験者" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="200" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="_1LRgNbLkFxFIjsRB0WL-3" value="資格者" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="200" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="_1LRgNbLkFxFIjsRB0WL-4" value="承認者" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="80" width="200" height="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1fzATk7LrqpEpCk-D95h" name="ページ4">
+    <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3o7Sb0Rd_exLNrJ75D38-1" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3o7Sb0Rd_exLNrJ75D38-2" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Actor1&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="580" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
