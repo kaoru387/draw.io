@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T10:19:08.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JXjHr3wOQvw3Hbgux0wQ" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:13:50.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="i6NUPM16VvnNPoeW5UXl" version="21.0.6" type="github" pages="5">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1591,25 +1591,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3o7Sb0Rd_exLNrJ75D38-1" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="全体構成のコピー" id="K-VHpIhNST08T7psGUtR">
+    <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-0" />
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-1" parent="Pj8sMNEH3t7J7TaT76gB-0" />
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-2" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="120" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3o7Sb0Rd_exLNrJ75D38-2" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付入力&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-3" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付入力&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="320" y="120" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mZYbQta-a8dALfbfH8mS-1" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;現場担当者&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-4" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;現場担当者&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mZYbQta-a8dALfbfH8mS-3" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;依頼一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-5" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;依頼一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="800" y="120" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mZYbQta-a8dALfbfH8mS-4" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-6" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;受付一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="560" y="120" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="sD0rfHPa3Jf6sN2LiOFH-2" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;異常値一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-7" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;異常値一覧&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="800" y="400" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="sD0rfHPa3Jf6sN2LiOFH-4" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;分析結果入力&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Pj8sMNEH3t7J7TaT76gB-8" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;分析結果入力&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="Pj8sMNEH3t7J7TaT76gB-1">
           <mxGeometry x="800" y="240" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
