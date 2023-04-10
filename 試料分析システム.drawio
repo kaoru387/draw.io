@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T11:45:50.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kYu7pvVkWXHa-uuEkclB" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-10T12:01:13.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HtQggL6qYgZw8fUG_Szt" version="21.0.6" type="github" pages="5">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER図">
-    <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1909" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1587,15 +1587,44 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1fzATk7LrqpEpCk-D95h" name="全体構成">
-    <mxGraphModel dx="1909" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8rbwUs88_eVplNbhp1aR-7" value="" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="776" y="224" width="337" height="241" as="geometry" />
+        </mxCell>
         <mxCell id="Hf6EAsvDDhBLSJLZV1VA-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
-          <mxGeometry x="400" y="330" width="80" height="65" as="geometry" />
+          <mxGeometry x="162" y="469" width="80" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Hf6EAsvDDhBLSJLZV1VA-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;" vertex="1" parent="1">
-          <mxGeometry x="880" y="120" width="100" height="55" as="geometry" />
+          <mxGeometry x="712" y="479" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
+          <mxGeometry x="525" y="172" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="270" y="469" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="378" y="469" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-5" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="477" width="55" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-6" value="DBサーバー" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="961" y="325" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-8" value="APサーバー&lt;br&gt;（Hosting）" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="841" y="325" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-9" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="863" y="478" width="57" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-10" value="ソース" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="8rbwUs88_eVplNbhp1aR-9">
+          <mxGeometry width="53" height="26" relative="1" as="geometry">
+            <mxPoint x="-1" y="12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
