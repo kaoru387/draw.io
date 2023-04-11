@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T05:51:25.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="C3LhoT-Xwl8w9haZs3lk" version="21.0.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-11T05:52:00.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ls8i17DwigdCgT_dHjgi" version="21.0.6" type="github" pages="6">
   <diagram id="1fzATk7LrqpEpCk-D95h" name="全体構成">
     <mxGraphModel dx="1660" dy="1177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#EEEEEE" math="0" shadow="0">
       <root>
@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="システム化" id="K-VHpIhNST08T7psGUtR">
-    <mxGraphModel dx="1383" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="Pj8sMNEH3t7J7TaT76gB-0" />
         <mxCell id="Pj8sMNEH3t7J7TaT76gB-1" parent="Pj8sMNEH3t7J7TaT76gB-0" />
