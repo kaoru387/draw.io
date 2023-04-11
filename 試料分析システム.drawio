@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T00:51:54.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BwC2lAeeMxOAoSOrU6g0" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-11T00:54:11.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tUmJVlJftVOePEWOOEmD" version="21.0.6" type="github" pages="5">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1595,13 +1595,13 @@
           <mxGeometry x="709" y="475" width="343" height="213" as="geometry" />
         </mxCell>
         <mxCell id="Hf6EAsvDDhBLSJLZV1VA-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="80" height="65" as="geometry" />
+          <mxGeometry x="160" y="364" width="80" height="65" as="geometry" />
         </mxCell>
         <mxCell id="8rbwUs88_eVplNbhp1aR-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
           <mxGeometry x="550" y="170" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8rbwUs88_eVplNbhp1aR-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
-          <mxGeometry x="268" y="370" width="80" height="65" as="geometry" />
+          <mxGeometry x="268" y="364" width="80" height="65" as="geometry" />
         </mxCell>
         <mxCell id="8rbwUs88_eVplNbhp1aR-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
           <mxGeometry x="376" y="365" width="80" height="65" as="geometry" />
