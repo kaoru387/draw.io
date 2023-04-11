@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T01:05:54.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="YLVPB8ukBxvaZp8ozfCE" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-11T01:14:24.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ts7ZbttmemhTm_uVv2bJ" version="21.0.6" type="github" pages="5">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1909" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1587,12 +1587,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1fzATk7LrqpEpCk-D95h" name="全体構成">
-    <mxGraphModel dx="1527" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1439" dy="1177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8rbwUs88_eVplNbhp1aR-18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#616161;" vertex="1" parent="1">
-          <mxGeometry x="694" y="475" width="368" height="262" as="geometry" />
+          <mxGeometry x="694" y="469" width="368" height="268" as="geometry" />
         </mxCell>
         <mxCell id="Hf6EAsvDDhBLSJLZV1VA-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
           <mxGeometry x="160" y="364" width="80" height="65" as="geometry" />
@@ -1667,6 +1667,9 @@
         </mxCell>
         <mxCell id="8rbwUs88_eVplNbhp1aR-30" value="マウント（データ永続化）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="912" y="437" width="163" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rbwUs88_eVplNbhp1aR-31" value="http://example.com:8080" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="679" y="439" width="163" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
