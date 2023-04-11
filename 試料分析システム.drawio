@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T01:31:15.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qaNeSOf6pEN6b5Pd4Jya" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-11T01:58:36.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JXodldpRsyulsK8xU6Ww" version="21.0.6" type="github" pages="5">
   <diagram id="KEKY2_DRNHdnTpxfxEh-" name="ユースケース図">
     <mxGraphModel dx="1600" dy="1177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="EkH-44tZXFESeeTRX9uq-15" value="証明書を発行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="402" y="618.5" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="EkH-44tZXFESeeTRX9uq-16" value="操作（機能）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;shadow=0;strokeColor=#B3B3B3;" vertex="1" parent="1">
+        <mxCell id="EkH-44tZXFESeeTRX9uq-16" value="業務でやること" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;shadow=0;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="32" y="19" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EkH-44tZXFESeeTRX9uq-17" value="入力パート" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
