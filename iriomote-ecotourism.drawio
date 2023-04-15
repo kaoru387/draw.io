@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T10:28:56.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lFZhhYIlmz0QCWi6xTrg" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T10:30:42.080Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GV9-3MnxUyZEf92w1GRu" version="21.1.5" type="github">
   <diagram name="コンポーネント・クラス図" id="A0RFGYicWgXDQkOwgbv-">
     <mxGraphModel dx="1525" dy="1309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-15" value="" style="fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="490" width="140" height="161" as="geometry" />
+          <mxGeometry x="585" y="350" width="140" height="161" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-16" value="Map" style="html=1;align=left;spacingLeft=4;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="_fHnPlDk8DKdOJCBfL9G-15">
           <mxGeometry width="140" height="40" as="geometry" />
@@ -62,13 +62,13 @@
           <mxGeometry x="750" y="220" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-36" value="Header" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="380" width="100" height="50" as="geometry" />
+          <mxGeometry x="980" y="350" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-37" value="Footer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="980" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-38" value="ProfileSection" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="310" width="100" height="50" as="geometry" />
+          <mxGeometry x="980" y="280" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-39" value="LogoSection" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="210" width="100" height="50" as="geometry" />
@@ -135,7 +135,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-90" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- children: ReactNode&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- theme: Theme&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="500" y="690" width="180" height="110" as="geometry" />
+          <mxGeometry x="640" y="620" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-91" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_fHnPlDk8DKdOJCBfL9G-90">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -143,11 +143,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-92" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;DynamicMap&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- children: ReactNode&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- data:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- setData:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- imageLatlng:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- className:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- width:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- height&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- loading: boolean&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- map: LeafletMap&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- isInput: boolean&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;- theme: Theme&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ MapUpdater(): void&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="790" y="460" width="180" height="230" as="geometry" />
+          <mxGeometry x="880" y="560" width="180" height="230" as="geometry" />
         </mxCell>
         <mxCell id="_fHnPlDk8DKdOJCBfL9G-93" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_fHnPlDk8DKdOJCBfL9G-92">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fHnPlDk8DKdOJCBfL9G-94" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fHnPlDk8DKdOJCBfL9G-90" target="_fHnPlDk8DKdOJCBfL9G-92">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="973" as="sourcePoint" />
+            <mxPoint x="390" y="972" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
