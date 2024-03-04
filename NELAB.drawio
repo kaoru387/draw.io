@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:38:46.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wNFETICil1nyPBrIHL8M" version="24.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:52:57.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="H3-MGUS1IavPnDExkRlX" version="24.0.0" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="E-R図">
     <mxGraphModel dx="1608" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -843,7 +843,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eLIBjuSYVFbvQMI2gYoC" name="フロー図">
-    <mxGraphModel dx="1604" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -861,9 +861,6 @@
             <mxPoint x="-30" y="80" as="sourcePoint" />
             <mxPoint x="50" y="80" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="-bZ9aT8v3dm_C5byaZPR-16" value="試料番号を採番" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMFb62RkbUZxrwW3zKug-104">
-          <mxGeometry x="169" y="130" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-bZ9aT8v3dm_C5byaZPR-43" value="納品を完了する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMFb62RkbUZxrwW3zKug-104">
           <mxGeometry x="40" y="750" width="120" height="60" as="geometry" />
@@ -960,6 +957,9 @@
               <mxPoint x="100" y="610" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-bZ9aT8v3dm_C5byaZPR-16" value="試料番号を採番&lt;div&gt;（存在する場合は再利用）&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMFb62RkbUZxrwW3zKug-106">
+          <mxGeometry x="103" y="200" width="177" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tMFb62RkbUZxrwW3zKug-107" value="資格者" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="80" width="200" height="870" as="geometry" />
