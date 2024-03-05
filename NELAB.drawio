@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T00:50:39.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="X1uC5aICYoK8XB4jASlF" version="24.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-05T00:51:23.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aFInsQP4z3IpMi43lH1T" version="24.0.0" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="E-R図">
     <mxGraphModel dx="2052" dy="1426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1084,9 +1084,8 @@
             <mxPoint x="431" y="200" as="sourcePoint" />
             <mxPoint x="428" y="876" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1159" y="440" />
-              <mxPoint x="624" y="440" />
-              <mxPoint x="624" y="460" />
+              <mxPoint x="1169" y="450" />
+              <mxPoint x="624" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
