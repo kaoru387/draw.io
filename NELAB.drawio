@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T09:53:01.219Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="QQAzrcq6zNeYL0bwrakb" version="24.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-12T10:04:03.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TkerZUAwpdrx9QINPuKL" version="24.0.1" type="github" pages="5">
   <diagram name="E-R図" id="PdWkVyOOkiQddDNNh5eu">
     <mxGraphModel dx="1841" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2162,8 +2162,8 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-64" value="ReceptionDetails" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
-          <mxGeometry x="968.5" y="675" width="268.5" height="480" as="geometry" />
+        <mxCell id="TU2377qfODZXStcqhMqr-64" value="受付詳細" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
+          <mxGeometry x="970.5" y="675" width="268.5" height="480" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-65" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-64">
           <mxGeometry y="30" width="268.5" height="30" as="geometry" />
@@ -2173,7 +2173,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-67" value="id string NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-65">
+        <mxCell id="TU2377qfODZXStcqhMqr-67" value="受付詳細ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-65">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2186,7 +2186,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-70" value="reception_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-68">
+        <mxCell id="TU2377qfODZXStcqhMqr-70" value="受付ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-68">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2199,7 +2199,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-73" value="parent_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-71">
+        <mxCell id="TU2377qfODZXStcqhMqr-73" value="親受付ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-71">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2212,7 +2212,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-76" value="employee_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-74">
+        <mxCell id="TU2377qfODZXStcqhMqr-76" value="従業員ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-74">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2225,7 +2225,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-79" value="building_name date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-77">
+        <mxCell id="TU2377qfODZXStcqhMqr-79" value="建物名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-77">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2238,7 +2238,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-82" value="use_name string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-80">
+        <mxCell id="TU2377qfODZXStcqhMqr-82" value="用途名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-80">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2251,7 +2251,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-85" value="picking_place_name string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-83">
+        <mxCell id="TU2377qfODZXStcqhMqr-85" value="採取場所名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-83">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2264,7 +2264,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-88" value="picking_part_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-86">
+        <mxCell id="TU2377qfODZXStcqhMqr-88" value="採取部位ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-86">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2277,7 +2277,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-91" value="material_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-89">
+        <mxCell id="TU2377qfODZXStcqhMqr-91" value="材料ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-89">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2290,7 +2290,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-94" value="shape_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-92">
+        <mxCell id="TU2377qfODZXStcqhMqr-94" value="形状ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-92">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2303,7 +2303,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-97" value="quantity int" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-95">
+        <mxCell id="TU2377qfODZXStcqhMqr-97" value="数量" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-95">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2316,7 +2316,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-100" value="unit string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-98">
+        <mxCell id="TU2377qfODZXStcqhMqr-100" value="単位" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-98">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2329,7 +2329,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-103" value="picking_method_name string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-101">
+        <mxCell id="TU2377qfODZXStcqhMqr-103" value="採取方法" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-101">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2342,7 +2342,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-106" value="picking_date string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-104">
+        <mxCell id="TU2377qfODZXStcqhMqr-106" value="採取日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-104">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2355,7 +2355,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-109" value="note string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-107">
+        <mxCell id="TU2377qfODZXStcqhMqr-109" value="備考" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-107">
           <mxGeometry x="30" width="238.5" height="30" as="geometry">
             <mxRectangle width="238.5" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2481,7 +2481,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-135" value="SampleRequests" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
-          <mxGeometry x="969.5" y="380" width="267.5" height="270" as="geometry" />
+          <mxGeometry x="970.5" y="370" width="267.5" height="270" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-136" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-135">
           <mxGeometry y="30" width="267.5" height="30" as="geometry" />
@@ -2588,7 +2588,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-160" value="Requests" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
-          <mxGeometry x="969.5" y="60" width="270" height="300" as="geometry" />
+          <mxGeometry x="970.5" y="50" width="270" height="300" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-161" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-160">
           <mxGeometry y="30" width="270" height="30" as="geometry" />
@@ -2749,8 +2749,9 @@
             <mxPoint x="889" y="437" as="sourcePoint" />
             <mxPoint x="770" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="766" y="40" />
-              <mxPoint x="1050" y="40" />
+              <mxPoint x="766" y="120" />
+              <mxPoint x="766" y="30" />
+              <mxPoint x="1051" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3640,9 +3641,9 @@
             <mxPoint x="1150" y="140" as="sourcePoint" />
             <mxPoint x="1434" y="78" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1197" y="30" />
+              <mxPoint x="1198" y="30" />
               <mxPoint x="1260" y="30" />
-              <mxPoint x="1260" y="87" />
+              <mxPoint x="1260" y="77" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3797,6 +3798,54 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="185" y="830" as="sourcePoint" />
             <mxPoint x="185" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCDzchPN3XqDWCMa3Ksh-4" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERoneToMany;startArrow=ERone;endFill=0;startFill=0;rounded=0;curved=0;" edge="1" parent="TU2377qfODZXStcqhMqr-1" target="TU2377qfODZXStcqhMqr-77">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="910" y="655" as="sourcePoint" />
+            <mxPoint x="980" y="465" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765" y="575" />
+              <mxPoint x="948" y="620" />
+              <mxPoint x="1020" y="580" />
+              <mxPoint x="960" y="520" />
+              <mxPoint x="970" y="530" />
+              <mxPoint x="970" y="570" />
+              <mxPoint x="955" y="667" />
+              <mxPoint x="950" y="660" />
+              <mxPoint x="955" y="580" />
+              <mxPoint x="930" y="580" />
+              <mxPoint x="954" y="520" />
+              <mxPoint x="930" y="520" />
+              <mxPoint x="948" y="580" />
+              <mxPoint x="940" y="590" />
+              <mxPoint x="940" y="590" />
+              <mxPoint x="940" y="580" />
+              <mxPoint x="954" y="520" />
+              <mxPoint x="960" y="520" />
+              <mxPoint x="951" y="530" />
+              <mxPoint x="941" y="520" />
+              <mxPoint x="950" y="580" />
+              <mxPoint x="950" y="520" />
+              <mxPoint x="950" y="520" />
+              <mxPoint x="930" y="590" />
+              <mxPoint x="950" y="520" />
+              <mxPoint x="930" y="600" />
+              <mxPoint x="951" y="520" />
+              <mxPoint x="765" y="615" />
+              <mxPoint x="770" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCDzchPN3XqDWCMa3Ksh-5" value="" style="endArrow=ERzeroToMany;startArrow=ERone;endFill=0;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;" edge="1" parent="TU2377qfODZXStcqhMqr-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1220" y="670" as="sourcePoint" />
+            <mxPoint x="1240" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="650" />
+              <mxPoint x="1260" y="650" />
+              <mxPoint x="1260" y="700" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
