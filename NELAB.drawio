@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T05:19:32.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="WqawbZ1TG_kuFCP0sX6O" version="24.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-12T05:20:20.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="yzE85FGSYSNoAbhCaOp-" version="24.0.1" type="github" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="E-R図">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2096,7 +2096,7 @@
         <mxCell id="S2jGFRacVjsF-BHvmV6w-29" value="証明書を発行する" style="rounded=0;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-28" vertex="1">
           <mxGeometry x="40" y="659" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S2jGFRacVjsF-BHvmV6w-30" value="納品依頼する" style="rounded=0;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-28" vertex="1">
+        <mxCell id="S2jGFRacVjsF-BHvmV6w-30" value="納品依頼する&lt;div&gt;（納品予定日と納品方法）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-28" vertex="1">
           <mxGeometry x="40" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S2jGFRacVjsF-BHvmV6w-31" value="" style="endArrow=open;html=1;rounded=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="S2jGFRacVjsF-BHvmV6w-28" source="S2jGFRacVjsF-BHvmV6w-29" target="S2jGFRacVjsF-BHvmV6w-30" edge="1">
