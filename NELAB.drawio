@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T09:43:47.623Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="XL1yW11cMhQIQbYjiyXf" version="24.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-12T09:53:01.219Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="QQAzrcq6zNeYL0bwrakb" version="24.0.1" type="github" pages="5">
   <diagram name="E-R図" id="PdWkVyOOkiQddDNNh5eu">
     <mxGraphModel dx="1841" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2980,7 +2980,7 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-241" value="Projects" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
+        <mxCell id="TU2377qfODZXStcqhMqr-241" value="業務" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
           <mxGeometry x="340" y="40" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-242" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-241">
@@ -2991,7 +2991,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-244" value="id string NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-242">
+        <mxCell id="TU2377qfODZXStcqhMqr-244" value="業務ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-242">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3004,7 +3004,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-247" value="name string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-245">
+        <mxCell id="TU2377qfODZXStcqhMqr-247" value="業務名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-245">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3017,7 +3017,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-250" value="from_date string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-248">
+        <mxCell id="TU2377qfODZXStcqhMqr-250" value="業務開始日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-248">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3030,7 +3030,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-253" value="to_date string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-251">
+        <mxCell id="TU2377qfODZXStcqhMqr-253" value="業務終了日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-251">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3043,7 +3043,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-256" value="note string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-254">
+        <mxCell id="TU2377qfODZXStcqhMqr-256" value="備考" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-254">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3142,7 +3142,7 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-282" value="Samples" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
+        <mxCell id="TU2377qfODZXStcqhMqr-282" value="受付区分" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
           <mxGeometry x="340" y="240" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-283" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-282">
@@ -3153,7 +3153,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-285" value="id string NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-283">
+        <mxCell id="TU2377qfODZXStcqhMqr-285" value="受付区分ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-283">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3166,7 +3166,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-288" value="name string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-286">
+        <mxCell id="TU2377qfODZXStcqhMqr-288" value="受付区分名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-286">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3179,7 +3179,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-291" value="english_name string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-289">
+        <mxCell id="TU2377qfODZXStcqhMqr-291" value="英語名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-289">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3192,7 +3192,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-294" value="code string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-292">
+        <mxCell id="TU2377qfODZXStcqhMqr-294" value="コード" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-292">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3205,7 +3205,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-297" value="note string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-295">
+        <mxCell id="TU2377qfODZXStcqhMqr-297" value="備考" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-295">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3330,7 +3330,7 @@
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-326" value="Receptions" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
+        <mxCell id="TU2377qfODZXStcqhMqr-326" value="受付" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
           <mxGeometry x="640" y="120" width="271" height="630" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-327" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-326">
@@ -3341,7 +3341,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-329" value="id string NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-327">
+        <mxCell id="TU2377qfODZXStcqhMqr-329" value="受付ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-327">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3354,7 +3354,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-332" value="client_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-330">
+        <mxCell id="TU2377qfODZXStcqhMqr-332" value="取引先ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-330">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3367,7 +3367,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-335" value="client_contact_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-333">
+        <mxCell id="TU2377qfODZXStcqhMqr-335" value="取引先担当者ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-333">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3380,7 +3380,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-338" value="cert_destination_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-336">
+        <mxCell id="TU2377qfODZXStcqhMqr-338" value="証明書宛先ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-336">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3393,7 +3393,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-341" value="invoice_destination_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-339">
+        <mxCell id="TU2377qfODZXStcqhMqr-341" value="請求書宛先ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-339">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3406,7 +3406,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-344" value="project_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-342">
+        <mxCell id="TU2377qfODZXStcqhMqr-344" value="業務ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-342">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3419,7 +3419,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-347" value="employee_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-345">
+        <mxCell id="TU2377qfODZXStcqhMqr-347" value="従業員ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-345">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3432,7 +3432,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-350" value="picking_destination_id string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-348">
+        <mxCell id="TU2377qfODZXStcqhMqr-350" value="採取場所宛先ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-348">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3445,7 +3445,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-353" value="examination_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-351">
+        <mxCell id="TU2377qfODZXStcqhMqr-353" value="試験ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-351">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3458,7 +3458,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-356" value="sample_id string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-354">
+        <mxCell id="TU2377qfODZXStcqhMqr-356" value="受付区分ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-354">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3471,7 +3471,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-359" value="date string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-357">
+        <mxCell id="TU2377qfODZXStcqhMqr-359" value="日付" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-357">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3484,7 +3484,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-362" value="reception_code string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-360">
+        <mxCell id="TU2377qfODZXStcqhMqr-362" value="受付番号" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-360">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3497,7 +3497,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-365" value="sample_count int" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-363">
+        <mxCell id="TU2377qfODZXStcqhMqr-365" value="試験項目数" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-363">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3510,7 +3510,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-368" value="scheduled_delivery_date string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-366">
+        <mxCell id="TU2377qfODZXStcqhMqr-368" value="予定配送日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-366">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3523,7 +3523,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-371" value="delivery_date string " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-369">
+        <mxCell id="TU2377qfODZXStcqhMqr-371" value="配送日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-369">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3536,7 +3536,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-374" value="scheduled_quick_report_date string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-372">
+        <mxCell id="TU2377qfODZXStcqhMqr-374" value="予定速報日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-372">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3549,7 +3549,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-377" value="status string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-375">
+        <mxCell id="TU2377qfODZXStcqhMqr-377" value="ステータス" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-375">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3562,7 +3562,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-380" value="is_photo boolean NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-378">
+        <mxCell id="TU2377qfODZXStcqhMqr-380" value="写真有無" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-378">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3575,7 +3575,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-383" value="print_number int" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-381">
+        <mxCell id="TU2377qfODZXStcqhMqr-383" value="印刷必要数" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-381">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3588,7 +3588,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-386" value="special_note string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-384">
+        <mxCell id="TU2377qfODZXStcqhMqr-386" value="特記事項" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-384">
           <mxGeometry x="30" width="241" height="30" as="geometry">
             <mxRectangle width="241" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3712,7 +3712,7 @@
             <mxPoint x="1309" y="547" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-398" value="Examinations" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
+        <mxCell id="TU2377qfODZXStcqhMqr-398" value="試験" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-1">
           <mxGeometry x="340" y="870" width="250" height="210" as="geometry" />
         </mxCell>
         <mxCell id="TU2377qfODZXStcqhMqr-399" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="TU2377qfODZXStcqhMqr-398">
@@ -3723,7 +3723,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-401" value="id string NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-399">
+        <mxCell id="TU2377qfODZXStcqhMqr-401" value="試験ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="TU2377qfODZXStcqhMqr-399">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3736,7 +3736,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-404" value="name string NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-402">
+        <mxCell id="TU2377qfODZXStcqhMqr-404" value="試験名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-402">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3749,7 +3749,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-407" value="is_qualitative boolean" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-405">
+        <mxCell id="TU2377qfODZXStcqhMqr-407" value="定性検査フラグ" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-405">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3762,7 +3762,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-410" value="is_quantity boolean" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-408">
+        <mxCell id="TU2377qfODZXStcqhMqr-410" value="定量検査フラグ" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-408">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3775,7 +3775,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-413" value="is_xrd boolean" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-411">
+        <mxCell id="TU2377qfODZXStcqhMqr-413" value="X線回折検査フラグ" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-411">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3788,7 +3788,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TU2377qfODZXStcqhMqr-416" value="explanation string" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-414">
+        <mxCell id="TU2377qfODZXStcqhMqr-416" value="検査説明" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="TU2377qfODZXStcqhMqr-414">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
