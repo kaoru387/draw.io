@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T04:06:48.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="J7ANDzKOersP0wArizh_" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-23T04:09:43.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="yoTqx3XEdkAyk1ZcBlBV" version="24.0.7" type="github" pages="2">
   <diagram id="Sh04SJ9oBAffThRWzbD-" name="システム構成">
     <mxGraphModel dx="1110" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ocbn0bxyOp51BVK7D1-y-42" value="ユーザー" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=default;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="56.09" y="185" width="132" height="273" as="geometry" />
+          <mxGeometry x="56.09" y="196" width="132" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Ocbn0bxyOp51BVK7D1-y-46" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
           <mxGeometry x="99.4" y="349" width="39.2" height="70" as="geometry" />
@@ -75,7 +75,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ocbn0bxyOp51BVK7D1-y-61" value="" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;entryX=-0.002;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.992;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ocbn0bxyOp51BVK7D1-y-42" target="Ocbn0bxyOp51BVK7D1-y-39">
+        <mxCell id="Ocbn0bxyOp51BVK7D1-y-61" value="" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;entryX=0.001;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ocbn0bxyOp51BVK7D1-y-42" target="Ocbn0bxyOp51BVK7D1-y-39">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="190" y="321" as="sourcePoint" />
             <mxPoint x="230" y="320" as="targetPoint" />
