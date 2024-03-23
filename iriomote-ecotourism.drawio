@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T06:57:31.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4cTPu2nG0LknKGNaX4CP" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-23T07:01:34.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BkoBEHi7lIr09RLueHtv" version="24.0.7" type="github" pages="3">
   <diagram id="Sh04SJ9oBAffThRWzbD-" name="システム構成">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qc_uUFVr3TQ8C3DO2GfO" name="システムフロー図">
-    <mxGraphModel dx="2167" dy="1426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,7 @@
           <mxGeometry x="45" y="65" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LCZwExIZYBdT7zdSecRV-3" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:認証&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="430" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="450" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="LCZwExIZYBdT7zdSecRV-4" value=":管理者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="730" y="40" width="100" height="300" as="geometry" />
@@ -239,6 +239,15 @@
               <mxPoint x="840" y="570" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zlftUI5HHp7BINuvkFHG-1" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="336" y="140" as="sourcePoint" />
+            <mxPoint x="496" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlftUI5HHp7BINuvkFHG-2" value="1：アカウントを作成する（）" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="zlftUI5HHp7BINuvkFHG-1">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
