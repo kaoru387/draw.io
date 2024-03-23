@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T11:24:11.105Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5GpHlmXTL4jPTlhPrDss" version="24.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-23T11:25:32.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="v4cZx558fpuzCZ7zJzVI" version="24.0.7" type="github" pages="3">
   <diagram id="Sh04SJ9oBAffThRWzbD-" name="システム構成">
-    <mxGraphModel dx="1534" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qc_uUFVr3TQ8C3DO2GfO" name="シーケンス図">
-    <mxGraphModel dx="1188" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -763,34 +763,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CdlYFvXw3kacIEFDW3Qy" name="システムフロー図">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="PLXGJYK11LuGkGd2M_PA-1" value="観光案内人" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="200" height="720" as="geometry" />
-        </mxCell>
-        <mxCell id="PLXGJYK11LuGkGd2M_PA-2" value="依頼する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PLXGJYK11LuGkGd2M_PA-1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PLXGJYK11LuGkGd2M_PA-3" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="PLXGJYK11LuGkGd2M_PA-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="650" as="sourcePoint" />
-            <mxPoint x="320" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PLXGJYK11LuGkGd2M_PA-4" value="管理者" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="200" height="720" as="geometry" />
-        </mxCell>
-        <mxCell id="PLXGJYK11LuGkGd2M_PA-5" value="依頼する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PLXGJYK11LuGkGd2M_PA-4">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="コンポーネント・クラス図" id="A0RFGYicWgXDQkOwgbv-">
-    <mxGraphModel dx="1841" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
