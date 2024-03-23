@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T08:33:10.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ybvkm7OtkDtvl0WcVMIx" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-23T08:34:23.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="8zz51mTPQ-_WXIibufrV" version="24.0.7" type="github" pages="3">
   <diagram id="Sh04SJ9oBAffThRWzbD-" name="システム構成">
     <mxGraphModel dx="1728" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -359,20 +359,22 @@
         <mxCell id="zlftUI5HHp7BINuvkFHG-68" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zlftUI5HHp7BINuvkFHG-67">
           <mxGeometry x="45" y="56" width="10" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="zlftUI5HHp7BINuvkFHG-69" value="&lt;div&gt;:マップ画面&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="zlftUI5HHp7BINuvkFHG-69" value="&lt;div&gt;:ホーム画面&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="280" y="603" width="100" height="175" as="geometry" />
         </mxCell>
         <mxCell id="zlftUI5HHp7BINuvkFHG-70" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zlftUI5HHp7BINuvkFHG-69">
           <mxGeometry x="45" y="56" width="10" height="109" as="geometry" />
         </mxCell>
         <mxCell id="zlftUI5HHp7BINuvkFHG-81" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zlftUI5HHp7BINuvkFHG-69">
-          <mxGeometry x="50" y="135" width="10" height="20" as="geometry" />
+          <mxGeometry x="50" y="129" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zlftUI5HHp7BINuvkFHG-82" value="権限により表示メニューを制御する" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="zlftUI5HHp7BINuvkFHG-81" parent="zlftUI5HHp7BINuvkFHG-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="115" as="sourcePoint" />
+            <mxPoint x="55" y="121" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="145" />
+              <mxPoint x="55" y="121" />
+              <mxPoint x="85" y="121" />
+              <mxPoint x="85" y="139" />
             </Array>
           </mxGeometry>
         </mxCell>
