@@ -5184,7 +5184,7 @@
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-0" />
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-1" parent="VPJkksoFBIL7HEO-f0LJ-0" />
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-2" value="試験者｜区分2" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VPJkksoFBIL7HEO-f0LJ-1">
-          <mxGeometry x="400" y="80" width="200" height="800" as="geometry" />
+          <mxGeometry x="410" y="80" width="190" height="960" as="geometry" />
         </mxCell>
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-6" value="ステータス変更→新規受付" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VPJkksoFBIL7HEO-f0LJ-2">
           <mxGeometry x="-94" y="100" width="177" height="30" as="geometry" />
@@ -5193,7 +5193,7 @@
           <mxGeometry x="-38" y="160" width="177" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-9" value="審査者｜区分3" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VPJkksoFBIL7HEO-f0LJ-1">
-          <mxGeometry x="600" y="80" width="590" height="874" as="geometry" />
+          <mxGeometry x="600" y="80" width="200" height="960" as="geometry" />
         </mxCell>
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;fontSize=14;" edge="1" parent="VPJkksoFBIL7HEO-f0LJ-9" source="VPJkksoFBIL7HEO-f0LJ-4" target="VPJkksoFBIL7HEO-f0LJ-5">
           <mxGeometry relative="1" as="geometry" />
@@ -5303,7 +5303,7 @@
           <mxGeometry x="1000" y="80" width="200" height="800" as="geometry" />
         </mxCell>
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-20" value="受付者｜区分1" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VPJkksoFBIL7HEO-f0LJ-1">
-          <mxGeometry x="200" y="80" width="200" height="800" as="geometry" />
+          <mxGeometry x="200" y="80" width="210" height="960" as="geometry" />
         </mxCell>
         <mxCell id="VPJkksoFBIL7HEO-f0LJ-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;受付を作成する&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VPJkksoFBIL7HEO-f0LJ-20">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
