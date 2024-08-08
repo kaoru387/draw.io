@@ -5338,37 +5338,31 @@
           <mxGeometry x="210" y="40" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="525EWfMllauPhwcezT4T-2" value="試料試験する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
-          <mxGeometry x="210" y="310" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="230" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-0" value="分析審査する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="210" y="400" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="320" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-1" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="210" y="220" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="140" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-2" value="&lt;div&gt;分析承認する&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="210" y="490" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="410" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-3" value="&lt;div&gt;納品する&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="210" y="580" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="500" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-4" value="あなたの受付一覧" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="480" y="40" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="50" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-5" value="あなたの受付" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="640" y="40" width="110" height="50" as="geometry" />
+          <mxGeometry x="640" y="50" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-6" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="480" y="230" width="110" height="50" as="geometry" />
+        <mxCell id="4vA1yvIAJU_vcqRvpOG8-6" value="受付審査" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="480" y="150" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-7" value="あなたの受付" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="640" y="230" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-8" value="試料採取する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="210" y="130" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-9" value="受付管理" style="html=1;whiteSpace=wrap;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="480" y="140" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="240" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
