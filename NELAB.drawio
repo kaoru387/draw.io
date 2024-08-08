@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6" pages="8">
   <diagram name="E-R図" id="PdWkVyOOkiQddDNNh5eu">
     <mxGraphModel dx="1865" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -5330,18 +5330,18 @@
     </mxGraphModel>
   </diagram>
   <diagram name="アクティビティ図" id="rup55Z2m0ZcO23u2PgPx">
-    <mxGraphModel dx="1738" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S2jGFRacVjsF-BHvmV6w-0" />
         <mxCell id="S2jGFRacVjsF-BHvmV6w-1" parent="S2jGFRacVjsF-BHvmV6w-0" />
-        <mxCell id="525EWfMllauPhwcezT4T-0" value="受付する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="270" y="110" width="140" height="70" as="geometry" />
+        <mxCell id="525EWfMllauPhwcezT4T-0" value="受付する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+          <mxGeometry x="210" y="70" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="525EWfMllauPhwcezT4T-1" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="270" y="220" width="140" height="70" as="geometry" />
+        <mxCell id="525EWfMllauPhwcezT4T-1" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+          <mxGeometry x="210" y="160" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="525EWfMllauPhwcezT4T-2" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
-          <mxGeometry x="270" y="330" width="140" height="70" as="geometry" />
+        <mxCell id="525EWfMllauPhwcezT4T-2" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+          <mxGeometry x="210" y="250" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
