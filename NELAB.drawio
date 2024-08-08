@@ -5330,18 +5330,21 @@
     </mxGraphModel>
   </diagram>
   <diagram name="アクティビティ図" id="rup55Z2m0ZcO23u2PgPx">
-    <mxGraphModel dx="957" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S2jGFRacVjsF-BHvmV6w-0" />
         <mxCell id="S2jGFRacVjsF-BHvmV6w-1" parent="S2jGFRacVjsF-BHvmV6w-0" />
         <mxCell id="525EWfMllauPhwcezT4T-0" value="受付する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="210" y="70" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="525EWfMllauPhwcezT4T-1" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+        <mxCell id="525EWfMllauPhwcezT4T-1" value="試料採取する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="210" y="160" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="525EWfMllauPhwcezT4T-2" value="受付審査する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+        <mxCell id="525EWfMllauPhwcezT4T-2" value="試料試験する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="210" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4vA1yvIAJU_vcqRvpOG8-0" value="試料試験する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="210" y="350" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
