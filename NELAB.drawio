@@ -5523,6 +5523,15 @@
         <mxCell id="duIcP8aRFCoaLbfLKs4d-8" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書納品を完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;証明書納品を取り消す（）&lt;/div&gt;&lt;div&gt;完了を取り消す（）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
           <mxGeometry x="1021" y="760" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="duIcP8aRFCoaLbfLKs4d-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;/reception/index&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="200" y="1010" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duIcP8aRFCoaLbfLKs4d-10" value="&lt;div&gt;受付を管理する&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="200" y="930" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="duIcP8aRFCoaLbfLKs4d-11" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;受付一覧を表示する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;受付を削除する（）&lt;/div&gt;&lt;div&gt;Excel出力する（）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="391" y="930" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
