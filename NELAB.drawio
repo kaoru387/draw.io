@@ -5439,7 +5439,7 @@
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-45" value="&lt;div&gt;&lt;b&gt;分析完了&lt;/b&gt;&lt;/div&gt;&lt;div&gt;・納品と納品詳細を作成&lt;/div&gt;&lt;div&gt;・分析調査者1を登録&lt;/div&gt;&lt;div&gt;・分析調査者2を登録&lt;br&gt;&lt;/div&gt;&lt;div&gt;・分析完了フラグ←true&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・状態を&lt;/span&gt;「3:分析試験審査」に変更&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="1380" y="240" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-46" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析審査を完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析審査を&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+        <mxCell id="4vA1yvIAJU_vcqRvpOG8-46" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析審査を完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析審査を取り消す（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="1170" y="340" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-47" value="&lt;div&gt;&lt;b&gt;分析審査完了&lt;/b&gt;&lt;/div&gt;&lt;div&gt;・分析責任者を登録&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・状態を&lt;/span&gt;「4:証明書作成」に変更&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
@@ -5448,19 +5448,19 @@
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-48" value="«component»&lt;br&gt;&lt;b&gt;証明書作成&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="401" y="450" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-49" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書作成を完了する（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+        <mxCell id="4vA1yvIAJU_vcqRvpOG8-49" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書作成を完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書作成を取り消す（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="561" y="445" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-50" value="証明書作成する" style="ellipse;whiteSpace=wrap;html=1;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="210" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-51" value="&lt;div&gt;&lt;b&gt;証明書作成&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・状態を&lt;/span&gt;「5:承認依頼」に変更&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
-          <mxGeometry x="748" y="450" width="210" height="70" as="geometry" />
+          <mxGeometry x="760" y="435" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-52" value="«component»&lt;br&gt;&lt;b&gt;証明書作成&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="401" y="550" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4vA1yvIAJU_vcqRvpOG8-53" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書作成を完了する（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
+        <mxCell id="4vA1yvIAJU_vcqRvpOG8-53" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;証明書内容を承認する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="561" y="547" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-54" value="&lt;div&gt;&lt;b&gt;証明書作成&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・状態を&lt;/span&gt;「6:証明書速報」に変更&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
@@ -5507,6 +5507,12 @@
         </mxCell>
         <mxCell id="duIcP8aRFCoaLbfLKs4d-2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;/reception/my/index&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
           <mxGeometry x="205" y="115" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duIcP8aRFCoaLbfLKs4d-4" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;/certificate/[id]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="206" y="510" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duIcP8aRFCoaLbfLKs4d-5" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;/approval/[id]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="S2jGFRacVjsF-BHvmV6w-1">
+          <mxGeometry x="210" y="611" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
