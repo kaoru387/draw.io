@@ -5407,7 +5407,7 @@
           <mxGeometry x="791" y="350" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-34" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;受付審査を完了する（）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;受付完了を取り消す（）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
-          <mxGeometry x="1181" y="135" width="210" height="80" as="geometry" />
+          <mxGeometry x="1170" y="135" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-36" value="«component»&lt;br&gt;&lt;b&gt;分析結果&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="1051" y="245" width="110" height="50" as="geometry" />
@@ -5428,7 +5428,7 @@
           <mxGeometry x="791" y="245" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-42" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;試験結果を入力する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析を完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;受付審査を取り消す（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
-          <mxGeometry x="1181" y="240" width="170" height="60" as="geometry" />
+          <mxGeometry x="1170" y="240" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-43" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;試験内容を追加する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;受付完了する（）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;受付削除する（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="1040" y="30" width="210" height="80" as="geometry" />
@@ -5440,7 +5440,7 @@
           <mxGeometry x="1380" y="240" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-46" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分析審査を完了する（）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
-          <mxGeometry x="1181" y="340" width="170" height="60" as="geometry" />
+          <mxGeometry x="1170" y="340" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vA1yvIAJU_vcqRvpOG8-47" value="&lt;div&gt;&lt;b&gt;分析審査完了&lt;/b&gt;&lt;/div&gt;&lt;div&gt;・分析責任者を登録&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・状態を&lt;/span&gt;「4:証明書作成」に変更&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="S2jGFRacVjsF-BHvmV6w-1" vertex="1">
           <mxGeometry x="1365" y="350" width="210" height="70" as="geometry" />
