@@ -84,7 +84,7 @@
         <mxCell id="1eZkThgiorCovxFo2m7x-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" parent="1" vertex="1">
           <mxGeometry x="145" y="365" width="103" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="Bq04absO3NOncdEMB7Rg-1" value="http://192.168.22.80:8080&lt;br&gt;をブラウザに入力してWEBサービスを利用できる" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="Bq04absO3NOncdEMB7Rg-1" value="http://example.com:8080&lt;br&gt;をブラウザに入力してWEBサービスを利用できる" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="169" y="455" width="286" height="69" as="geometry" />
         </mxCell>
       </root>
